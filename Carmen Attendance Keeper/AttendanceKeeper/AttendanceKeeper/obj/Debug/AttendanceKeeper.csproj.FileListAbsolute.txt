@@ -1,0 +1,427 @@
+D:\Projects\AttKeeper\AttendanceKeeper\AttendanceKeeper\bin\Debug\AttendanceKeeper.exe
+D:\Projects\AttKeeper\AttendanceKeeper\AttendanceKeeper\bin\Debug\AttendanceKeeper.pdb
+D:\Projects\AttKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\AttKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.MianForm.resources
+D:\Projects\AttKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Properties.Resources.resources
+D:\Projects\AttKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.csproj.GenerateResource.Cache
+D:\Projects\AttKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.exe
+D:\Projects\AttKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.pdb
+D:\Projects\AttKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRForm.resources
+D:\Projects\AttKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.EmployeeForm.resources
+D:\Projects\AttKeeper\AttendanceKeeper\AttendanceKeeper\bin\Debug\AttendanceKeeper.exe.config
+D:\Projects\AttKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DeviceSettingForm.resources
+D:\Projects\AttKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRSettingForm.resources
+D:\Projects\AttKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.PreferenceForm.resources
+D:\Projects\AttKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRSettingDetailForm.resources
+D:\Projects\AttKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DataAccessForm.resources
+D:\Projects\AttKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.MachineLogForm.resources
+D:\Projects\AttKeeper\AttendanceKeeper\AttendanceKeeper\bin\Debug\JBiometric.dll
+D:\Projects\AttKeeper\AttendanceKeeper\AttendanceKeeper\bin\Debug\Interop.zkemkeeper.dll
+D:\Projects\AttKeeper\AttendanceKeeper\AttendanceKeeper\bin\Debug\JBiometric.pdb
+D:\Projects\AttKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.MachineInstanceForm.resources
+D:\Projects\AttKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRImportForm.resources
+D:\Projects\AttKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.LeaveForm.resources
+D:\Projects\AttKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.UserForm.resources
+D:\Projects\AttKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.LoginForm.resources
+D:\Projects\AttKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.ViewDelinquentLogForm.resources
+D:\Projects\AttKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRUpdateForm.resources
+D:\Projects\AttKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.MachineSettingForm.resources
+D:\Projects\AttKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.ReportDTRForm.resources
+D:\Projects\AttKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\RdlCompile.cache
+D:\Projects\AttKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\RdlCompile.compiled
+D:\Projects\AttKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.LeaveListForm.resources
+D:\Projects\AttKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.ReportHolidayForm.resources
+D:\Projects\AttKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTROverUnderTimeForm.resources
+D:\Projects\AttKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.ReportEnrolleeForm.resources
+D:\Projects\AttKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.BackupRestoreDBForm.resources
+D:\Projects\AttKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.BackupRestoreFileForm.resources
+D:\Projects\AttKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRLogForm.resources
+D:\Projects\AttKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.AboutBoxA.resources
+D:\Projects\AttKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRBatchForm.resources
+D:\Projects\AttKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRWizardForm.resources
+D:\Projects\AttKeeper\AttendanceKeeper\AttendanceKeeper\bin\Debug\Microsoft.Office.Interop.Excel.dll
+D:\Projects\AttKeeper\AttendanceKeeper\AttendanceKeeper\bin\Debug\office.dll
+D:\Projects\AttKeeper\AttendanceKeeper\AttendanceKeeper\bin\Debug\Microsoft.Vbe.Interop.dll
+D:\Projects\AttKeeper\AttendanceKeeper\AttendanceKeeper\bin\Debug\office.xml
+D:\Projects\AttKeeper\AttendanceKeeper\AttendanceKeeper\bin\Debug\Microsoft.Office.Interop.Excel.xml
+D:\Projects\AttKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.EnrolleeImportForm.resources
+D:\Installer\AttKeeper_BackSource\AttKeeper\AttendanceKeeper\AttendanceKeeper\bin\Debug\AttendanceKeeper.exe.config
+D:\Installer\AttKeeper_BackSource\AttKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.exe
+D:\Installer\AttKeeper_BackSource\AttKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.pdb
+D:\Installer\AttKeeper_BackSource\AttKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\ResolveAssemblyReference.cache
+D:\Installer\AttKeeper_BackSource\AttKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.AboutBoxA.resources
+D:\Installer\AttKeeper_BackSource\AttKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.BackupRestoreDBForm.resources
+D:\Installer\AttKeeper_BackSource\AttKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.BackupRestoreFileForm.resources
+D:\Installer\AttKeeper_BackSource\AttKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRBatchForm.resources
+D:\Installer\AttKeeper_BackSource\AttKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRLogForm.resources
+D:\Installer\AttKeeper_BackSource\AttKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTROverUnderTimeForm.resources
+D:\Installer\AttKeeper_BackSource\AttKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRUpdateForm.resources
+D:\Installer\AttKeeper_BackSource\AttKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRWizardForm.resources
+D:\Installer\AttKeeper_BackSource\AttKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.EnrolleeImportForm.resources
+D:\Installer\AttKeeper_BackSource\AttKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.LeaveListForm.resources
+D:\Installer\AttKeeper_BackSource\AttKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.LoginForm.resources
+D:\Installer\AttKeeper_BackSource\AttKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.MianForm.resources
+D:\Installer\AttKeeper_BackSource\AttKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DataAccessForm.resources
+D:\Installer\AttKeeper_BackSource\AttKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DeviceSettingForm.resources
+D:\Installer\AttKeeper_BackSource\AttKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRForm.resources
+D:\Installer\AttKeeper_BackSource\AttKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRImportForm.resources
+D:\Installer\AttKeeper_BackSource\AttKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRSettingDetailForm.resources
+D:\Installer\AttKeeper_BackSource\AttKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRSettingForm.resources
+D:\Installer\AttKeeper_BackSource\AttKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.EmployeeForm.resources
+D:\Installer\AttKeeper_BackSource\AttKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.LeaveForm.resources
+D:\Installer\AttKeeper_BackSource\AttKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.MachineInstanceForm.resources
+D:\Installer\AttKeeper_BackSource\AttKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.MachineLogForm.resources
+D:\Installer\AttKeeper_BackSource\AttKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.MachineSettingForm.resources
+D:\Installer\AttKeeper_BackSource\AttKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.PreferenceForm.resources
+D:\Installer\AttKeeper_BackSource\AttKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.ReportDTRForm.resources
+D:\Installer\AttKeeper_BackSource\AttKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.ReportEnrolleeForm.resources
+D:\Installer\AttKeeper_BackSource\AttKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.ReportHolidayForm.resources
+D:\Installer\AttKeeper_BackSource\AttKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.UserForm.resources
+D:\Installer\AttKeeper_BackSource\AttKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.ViewDelinquentLogForm.resources
+D:\Installer\AttKeeper_BackSource\AttKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Properties.Resources.resources
+D:\Installer\AttKeeper_BackSource\AttKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.csproj.GenerateResource.Cache
+D:\Installer\AttKeeper_BackSource\AttKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\RdlCompile.cache
+D:\Installer\AttKeeper_BackSource\AttKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\RdlCompile.compiled
+D:\Installer\AttKeeper_BackSource\AttKeeper\AttendanceKeeper\AttendanceKeeper\bin\Debug\AttendanceKeeper.exe
+D:\Installer\AttKeeper_BackSource\AttKeeper\AttendanceKeeper\AttendanceKeeper\bin\Debug\AttendanceKeeper.pdb
+D:\Installer\AttKeeper_BackSource\AttKeeper\AttendanceKeeper\AttendanceKeeper\bin\Debug\Interop.zkemkeeper.dll
+D:\Installer\AttKeeper_BackSource\AttKeeper\AttendanceKeeper\AttendanceKeeper\bin\Debug\JBiometric.dll
+D:\Installer\AttKeeper_BackSource\AttKeeper\AttendanceKeeper\AttendanceKeeper\bin\Debug\Microsoft.Office.Interop.Excel.dll
+D:\Installer\AttKeeper_BackSource\AttKeeper\AttendanceKeeper\AttendanceKeeper\bin\Debug\office.dll
+D:\Installer\AttKeeper_BackSource\AttKeeper\AttendanceKeeper\AttendanceKeeper\bin\Debug\Microsoft.Vbe.Interop.dll
+D:\Installer\AttKeeper_BackSource\AttKeeper\AttendanceKeeper\AttendanceKeeper\bin\Debug\office.xml
+D:\Installer\AttKeeper_BackSource\AttKeeper\AttendanceKeeper\AttendanceKeeper\bin\Debug\JBiometric.pdb
+D:\Installer\AttKeeper_BackSource\AttKeeper\AttendanceKeeper\AttendanceKeeper\bin\Debug\Microsoft.Office.Interop.Excel.xml
+D:\projects\AttKeeper_BackSource\AttKeeper\Aleosan AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\bin\Debug\AttendanceKeeper.exe.config
+D:\projects\AttKeeper_BackSource\AttKeeper\Aleosan AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.exe
+D:\projects\AttKeeper_BackSource\AttKeeper\Aleosan AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.pdb
+D:\projects\AttKeeper_BackSource\AttKeeper\Aleosan AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\bin\Debug\AttendanceKeeper.exe
+D:\projects\AttKeeper_BackSource\AttKeeper\Aleosan AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\bin\Debug\AttendanceKeeper.pdb
+D:\projects\AttKeeper_BackSource\AttKeeper\Aleosan AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\ResolveAssemblyReference.cache
+D:\projects\AttKeeper_BackSource\AttKeeper\Aleosan AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.AboutBoxA.resources
+D:\projects\AttKeeper_BackSource\AttKeeper\Aleosan AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.BackupRestoreDBForm.resources
+D:\projects\AttKeeper_BackSource\AttKeeper\Aleosan AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.BackupRestoreFileForm.resources
+D:\projects\AttKeeper_BackSource\AttKeeper\Aleosan AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRBatchForm.resources
+D:\projects\AttKeeper_BackSource\AttKeeper\Aleosan AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRLogForm.resources
+D:\projects\AttKeeper_BackSource\AttKeeper\Aleosan AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTROverUnderTimeForm.resources
+D:\projects\AttKeeper_BackSource\AttKeeper\Aleosan AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRUpdateForm.resources
+D:\projects\AttKeeper_BackSource\AttKeeper\Aleosan AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRWizardForm.resources
+D:\projects\AttKeeper_BackSource\AttKeeper\Aleosan AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.EnrolleeImportForm.resources
+D:\projects\AttKeeper_BackSource\AttKeeper\Aleosan AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.LeaveListForm.resources
+D:\projects\AttKeeper_BackSource\AttKeeper\Aleosan AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.LoginForm.resources
+D:\projects\AttKeeper_BackSource\AttKeeper\Aleosan AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.MianForm.resources
+D:\projects\AttKeeper_BackSource\AttKeeper\Aleosan AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DataAccessForm.resources
+D:\projects\AttKeeper_BackSource\AttKeeper\Aleosan AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DeviceSettingForm.resources
+D:\projects\AttKeeper_BackSource\AttKeeper\Aleosan AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRForm.resources
+D:\projects\AttKeeper_BackSource\AttKeeper\Aleosan AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRImportForm.resources
+D:\projects\AttKeeper_BackSource\AttKeeper\Aleosan AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRSettingDetailForm.resources
+D:\projects\AttKeeper_BackSource\AttKeeper\Aleosan AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRSettingForm.resources
+D:\projects\AttKeeper_BackSource\AttKeeper\Aleosan AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.EmployeeForm.resources
+D:\projects\AttKeeper_BackSource\AttKeeper\Aleosan AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.LeaveForm.resources
+D:\projects\AttKeeper_BackSource\AttKeeper\Aleosan AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.MachineInstanceForm.resources
+D:\projects\AttKeeper_BackSource\AttKeeper\Aleosan AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.MachineLogForm.resources
+D:\projects\AttKeeper_BackSource\AttKeeper\Aleosan AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.MachineSettingForm.resources
+D:\projects\AttKeeper_BackSource\AttKeeper\Aleosan AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.PreferenceForm.resources
+D:\projects\AttKeeper_BackSource\AttKeeper\Aleosan AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.ReportDTRForm.resources
+D:\projects\AttKeeper_BackSource\AttKeeper\Aleosan AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.ReportEnrolleeForm.resources
+D:\projects\AttKeeper_BackSource\AttKeeper\Aleosan AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.ReportHolidayForm.resources
+D:\projects\AttKeeper_BackSource\AttKeeper\Aleosan AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.UserForm.resources
+D:\projects\AttKeeper_BackSource\AttKeeper\Aleosan AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.ViewDelinquentLogForm.resources
+D:\projects\AttKeeper_BackSource\AttKeeper\Aleosan AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Properties.Resources.resources
+D:\projects\AttKeeper_BackSource\AttKeeper\Aleosan AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\GenerateResource-ResGen.read.1.tlog
+D:\projects\AttKeeper_BackSource\AttKeeper\Aleosan AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\GenerateResource-ResGen.write.1.tlog
+D:\projects\AttKeeper_BackSource\AttKeeper\Aleosan AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\RdlCompile.cache
+D:\projects\AttKeeper_BackSource\AttKeeper\Aleosan AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\RdlCompile.compiled
+D:\projects\AttKeeper_BackSource\AttKeeper\SCC AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\bin\Debug\AttendanceKeeper.exe.config
+D:\projects\AttKeeper_BackSource\AttKeeper\SCC AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.exe
+D:\projects\AttKeeper_BackSource\AttKeeper\SCC AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.pdb
+D:\projects\AttKeeper_BackSource\AttKeeper\SCC AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\bin\Debug\AttendanceKeeper.exe
+D:\projects\AttKeeper_BackSource\AttKeeper\SCC AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\bin\Debug\AttendanceKeeper.pdb
+D:\projects\AttKeeper_BackSource\AttKeeper\SCC AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\ResolveAssemblyReference.cache
+D:\projects\AttKeeper_BackSource\AttKeeper\SCC AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.AboutBoxA.resources
+D:\projects\AttKeeper_BackSource\AttKeeper\SCC AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.BackupRestoreDBForm.resources
+D:\projects\AttKeeper_BackSource\AttKeeper\SCC AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.BackupRestoreFileForm.resources
+D:\projects\AttKeeper_BackSource\AttKeeper\SCC AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRBatchForm.resources
+D:\projects\AttKeeper_BackSource\AttKeeper\SCC AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRLogForm.resources
+D:\projects\AttKeeper_BackSource\AttKeeper\SCC AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTROverUnderTimeForm.resources
+D:\projects\AttKeeper_BackSource\AttKeeper\SCC AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRUpdateForm.resources
+D:\projects\AttKeeper_BackSource\AttKeeper\SCC AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRWizardForm.resources
+D:\projects\AttKeeper_BackSource\AttKeeper\SCC AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.EnrolleeImportForm.resources
+D:\projects\AttKeeper_BackSource\AttKeeper\SCC AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.LeaveListForm.resources
+D:\projects\AttKeeper_BackSource\AttKeeper\SCC AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.LoginForm.resources
+D:\projects\AttKeeper_BackSource\AttKeeper\SCC AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.MianForm.resources
+D:\projects\AttKeeper_BackSource\AttKeeper\SCC AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DataAccessForm.resources
+D:\projects\AttKeeper_BackSource\AttKeeper\SCC AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DeviceSettingForm.resources
+D:\projects\AttKeeper_BackSource\AttKeeper\SCC AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRForm.resources
+D:\projects\AttKeeper_BackSource\AttKeeper\SCC AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRImportForm.resources
+D:\projects\AttKeeper_BackSource\AttKeeper\SCC AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRSettingDetailForm.resources
+D:\projects\AttKeeper_BackSource\AttKeeper\SCC AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRSettingForm.resources
+D:\projects\AttKeeper_BackSource\AttKeeper\SCC AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.EmployeeForm.resources
+D:\projects\AttKeeper_BackSource\AttKeeper\SCC AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.LeaveForm.resources
+D:\projects\AttKeeper_BackSource\AttKeeper\SCC AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.MachineInstanceForm.resources
+D:\projects\AttKeeper_BackSource\AttKeeper\SCC AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.MachineLogForm.resources
+D:\projects\AttKeeper_BackSource\AttKeeper\SCC AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.MachineSettingForm.resources
+D:\projects\AttKeeper_BackSource\AttKeeper\SCC AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.PreferenceForm.resources
+D:\projects\AttKeeper_BackSource\AttKeeper\SCC AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.ReportDTRForm.resources
+D:\projects\AttKeeper_BackSource\AttKeeper\SCC AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.ReportEnrolleeForm.resources
+D:\projects\AttKeeper_BackSource\AttKeeper\SCC AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.ReportHolidayForm.resources
+D:\projects\AttKeeper_BackSource\AttKeeper\SCC AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.UserForm.resources
+D:\projects\AttKeeper_BackSource\AttKeeper\SCC AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.ViewDelinquentLogForm.resources
+D:\projects\AttKeeper_BackSource\AttKeeper\SCC AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Properties.Resources.resources
+D:\projects\AttKeeper_BackSource\AttKeeper\SCC AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\GenerateResource-ResGen.read.1.tlog
+D:\projects\AttKeeper_BackSource\AttKeeper\SCC AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\GenerateResource-ResGen.write.1.tlog
+D:\projects\AttKeeper_BackSource\AttKeeper\SCC AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\RdlCompile.cache
+D:\projects\AttKeeper_BackSource\AttKeeper\SCC AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\RdlCompile.compiled
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\SCC AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\bin\Debug\AttendanceKeeper.exe.config
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\SCC AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.exe
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\SCC AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.pdb
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\SCC AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\bin\Debug\AttendanceKeeper.exe
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\SCC AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\bin\Debug\AttendanceKeeper.pdb
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\SCC AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\ResolveAssemblyReference.cache
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\SCC AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.AboutBoxA.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\SCC AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.BackupRestoreDBForm.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\SCC AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.BackupRestoreFileForm.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\SCC AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRBatchForm.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\SCC AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRLogForm.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\SCC AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTROverUnderTimeForm.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\SCC AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRUpdateForm.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\SCC AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRWizardForm.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\SCC AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.EnrolleeImportForm.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\SCC AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.LeaveListForm.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\SCC AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.LoginForm.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\SCC AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.MianForm.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\SCC AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DataAccessForm.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\SCC AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DeviceSettingForm.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\SCC AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRForm.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\SCC AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRImportForm.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\SCC AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRSettingDetailForm.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\SCC AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRSettingForm.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\SCC AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.EmployeeForm.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\SCC AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.LeaveForm.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\SCC AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.MachineInstanceForm.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\SCC AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.MachineLogForm.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\SCC AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.MachineSettingForm.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\SCC AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.PreferenceForm.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\SCC AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.ReportDTRForm.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\SCC AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.ReportEnrolleeForm.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\SCC AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.ReportHolidayForm.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\SCC AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.UserForm.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\SCC AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.ViewDelinquentLogForm.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\SCC AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Properties.Resources.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\SCC AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\GenerateResource-ResGen.read.1.tlog
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\SCC AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\ResGen.read.1.tlog
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\SCC AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\GenerateResource-ResGen.write.1.tlog
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\SCC AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\ResGen.write.1.tlog
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\SCC AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\RdlCompile.cache
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\SCC AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\RdlCompile.compiled
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Aleosan AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\bin\Debug\AttendanceKeeper.exe.config
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Aleosan AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.exe
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Aleosan AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.pdb
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Aleosan AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\bin\Debug\AttendanceKeeper.exe
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Aleosan AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\bin\Debug\AttendanceKeeper.pdb
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Aleosan AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\ResolveAssemblyReference.cache
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Aleosan AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.AboutBoxA.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Aleosan AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.BackupRestoreDBForm.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Aleosan AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.BackupRestoreFileForm.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Aleosan AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRBatchForm.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Aleosan AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRLogForm.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Aleosan AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTROverUnderTimeForm.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Aleosan AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRUpdateForm.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Aleosan AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRWizardForm.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Aleosan AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.EnrolleeImportForm.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Aleosan AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.LeaveListForm.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Aleosan AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.LoginForm.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Aleosan AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.MianForm.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Aleosan AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DataAccessForm.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Aleosan AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DeviceSettingForm.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Aleosan AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRForm.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Aleosan AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRImportForm.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Aleosan AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRSettingDetailForm.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Aleosan AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRSettingForm.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Aleosan AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.EmployeeForm.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Aleosan AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.LeaveForm.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Aleosan AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.MachineInstanceForm.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Aleosan AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.MachineLogForm.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Aleosan AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.MachineSettingForm.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Aleosan AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.PreferenceForm.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Aleosan AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.ReportDTRForm.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Aleosan AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.ReportEnrolleeForm.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Aleosan AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.ReportHolidayForm.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Aleosan AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.UserForm.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Aleosan AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.ViewDelinquentLogForm.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Aleosan AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Properties.Resources.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Aleosan AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\GenerateResource-ResGen.read.1.tlog
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Aleosan AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\ResGen.read.1.tlog
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Aleosan AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\GenerateResource-ResGen.write.1.tlog
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Aleosan AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\ResGen.write.1.tlog
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Aleosan AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\RdlCompile.cache
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Aleosan AttendanceKeeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\RdlCompile.compiled
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\bin\Debug\AttendanceKeeper.exe.config
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.exe
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.pdb
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\bin\Debug\AttendanceKeeper.exe
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\bin\Debug\AttendanceKeeper.pdb
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\ResolveAssemblyReference.cache
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.AboutBoxA.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.BackupRestoreDBForm.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.BackupRestoreFileForm.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRBatchForm.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRLogForm.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTROverUnderTimeForm.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRUpdateForm.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRWizardForm.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.EnrolleeImportForm.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.LeaveListForm.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.LoginForm.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.MianForm.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DataAccessForm.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DeviceSettingForm.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRForm.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRImportForm.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRSettingDetailForm.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRSettingForm.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.EmployeeForm.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.LeaveForm.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.MachineInstanceForm.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.MachineLogForm.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.MachineSettingForm.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.PreferenceForm.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.ReportDTRForm.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.ReportEnrolleeForm.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.ReportHolidayForm.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.UserForm.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.ViewDelinquentLogForm.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Properties.Resources.resources
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\GenerateResource-ResGen.read.1.tlog
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\ResGen.read.1.tlog
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\GenerateResource-ResGen.write.1.tlog
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\ResGen.write.1.tlog
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\RdlCompile.cache
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\RdlCompile.compiled
+D:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.WizardRepportForm.resources
+G:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\bin\Debug\AttendanceKeeper.exe.config
+G:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.exe
+G:\josh\project\src\_src\AttKeeper_BackSource\AttKeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.pdb
+X:\projects\src\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\bin\Debug\AttendanceKeeper.exe.config
+X:\projects\src\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.exe
+X:\projects\src\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.pdb
+X:\projects\src\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\bin\Debug\AttendanceKeeper.exe
+X:\projects\src\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\bin\Debug\AttendanceKeeper.pdb
+X:\projects\src\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\ResolveAssemblyReference.cache
+X:\projects\src\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.AboutBoxA.resources
+X:\projects\src\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.BackupRestoreDBForm.resources
+X:\projects\src\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.BackupRestoreFileForm.resources
+X:\projects\src\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRBatchForm.resources
+X:\projects\src\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRLogForm.resources
+X:\projects\src\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTROverUnderTimeForm.resources
+X:\projects\src\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRUpdateForm.resources
+X:\projects\src\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRWizardForm.resources
+X:\projects\src\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.EnrolleeImportForm.resources
+X:\projects\src\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.LeaveListForm.resources
+X:\projects\src\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.LoginForm.resources
+X:\projects\src\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.MianForm.resources
+X:\projects\src\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DataAccessForm.resources
+X:\projects\src\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DeviceSettingForm.resources
+X:\projects\src\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRForm.resources
+X:\projects\src\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRImportForm.resources
+X:\projects\src\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRSettingDetailForm.resources
+X:\projects\src\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRSettingForm.resources
+X:\projects\src\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.EmployeeForm.resources
+X:\projects\src\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.LeaveForm.resources
+X:\projects\src\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.MachineInstanceForm.resources
+X:\projects\src\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.MachineLogForm.resources
+X:\projects\src\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.MachineSettingForm.resources
+X:\projects\src\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.PreferenceForm.resources
+X:\projects\src\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.ReportDTRForm.resources
+X:\projects\src\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.ReportEnrolleeForm.resources
+X:\projects\src\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.ReportHolidayForm.resources
+X:\projects\src\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.UserForm.resources
+X:\projects\src\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.ViewDelinquentLogForm.resources
+X:\projects\src\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.WizardRepportForm.resources
+X:\projects\src\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Properties.Resources.resources
+X:\projects\src\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\GenerateResource-ResGen.read.1.tlog
+X:\projects\src\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\ResGen.read.1.tlog
+X:\projects\src\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\GenerateResource-ResGen.write.1.tlog
+X:\projects\src\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\ResGen.write.1.tlog
+X:\projects\src\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\RdlCompile.cache
+X:\projects\src\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\RdlCompile.compiled
+X:\hp_file\projects\src\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\bin\Debug\AttendanceKeeper.exe.config
+X:\hp_file\projects\src\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\bin\Debug\AttendanceKeeper.exe
+X:\hp_file\projects\src\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\bin\Debug\AttendanceKeeper.pdb
+X:\hp_file\projects\src\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.AboutBoxA.resources
+X:\hp_file\projects\src\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.BackupRestoreDBForm.resources
+X:\hp_file\projects\src\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.BackupRestoreFileForm.resources
+X:\hp_file\projects\src\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRBatchForm.resources
+X:\hp_file\projects\src\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRLogForm.resources
+X:\hp_file\projects\src\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTROverUnderTimeForm.resources
+X:\hp_file\projects\src\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRUpdateForm.resources
+X:\hp_file\projects\src\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRWizardForm.resources
+X:\hp_file\projects\src\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.EnrolleeImportForm.resources
+X:\hp_file\projects\src\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.LeaveListForm.resources
+X:\hp_file\projects\src\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.LoginForm.resources
+X:\hp_file\projects\src\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.MianForm.resources
+X:\hp_file\projects\src\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DataAccessForm.resources
+X:\hp_file\projects\src\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DeviceSettingForm.resources
+X:\hp_file\projects\src\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRForm.resources
+X:\hp_file\projects\src\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRImportForm.resources
+X:\hp_file\projects\src\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRSettingDetailForm.resources
+X:\hp_file\projects\src\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRSettingForm.resources
+X:\hp_file\projects\src\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.EmployeeForm.resources
+X:\hp_file\projects\src\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.LeaveForm.resources
+X:\hp_file\projects\src\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.MachineInstanceForm.resources
+X:\hp_file\projects\src\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.MachineLogForm.resources
+X:\hp_file\projects\src\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.MachineSettingForm.resources
+X:\hp_file\projects\src\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.PreferenceForm.resources
+X:\hp_file\projects\src\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.ReportDTRForm.resources
+X:\hp_file\projects\src\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.ReportEnrolleeForm.resources
+X:\hp_file\projects\src\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.ReportHolidayForm.resources
+X:\hp_file\projects\src\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.UserForm.resources
+X:\hp_file\projects\src\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.ViewDelinquentLogForm.resources
+X:\hp_file\projects\src\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.WizardRepportForm.resources
+X:\hp_file\projects\src\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Properties.Resources.resources
+X:\hp_file\projects\src\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\RdlCompile.cache
+X:\hp_file\projects\src\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\RdlCompile.compiled
+X:\hp_file\projects\src\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.exe
+X:\hp_file\projects\src\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.pdb
+X:\hp_file\projects\src\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.csprojResolveAssemblyReference.cache
+X:\hp_file\projects\src\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.csproj.GenerateResource.Cache
+D:\projects\att\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\bin\Debug\AttendanceKeeper.exe.config
+D:\projects\att\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.exe
+D:\projects\att\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.pdb
+D:\projects\att\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\bin\Debug\AttendanceKeeper.exe
+D:\projects\att\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\bin\Debug\AttendanceKeeper.pdb
+D:\projects\att\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.AboutBoxA.resources
+D:\projects\att\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.BackupRestoreDBForm.resources
+D:\projects\att\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.BackupRestoreFileForm.resources
+D:\projects\att\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRBatchForm.resources
+D:\projects\att\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRLogForm.resources
+D:\projects\att\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTROverUnderTimeForm.resources
+D:\projects\att\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRUpdateForm.resources
+D:\projects\att\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRWizardForm.resources
+D:\projects\att\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.EnrolleeImportForm.resources
+D:\projects\att\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.LeaveListForm.resources
+D:\projects\att\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.LoginForm.resources
+D:\projects\att\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.MianForm.resources
+D:\projects\att\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DataAccessForm.resources
+D:\projects\att\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DeviceSettingForm.resources
+D:\projects\att\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRForm.resources
+D:\projects\att\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRImportForm.resources
+D:\projects\att\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRSettingDetailForm.resources
+D:\projects\att\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRSettingForm.resources
+D:\projects\att\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.EmployeeForm.resources
+D:\projects\att\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.LeaveForm.resources
+D:\projects\att\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.MachineInstanceForm.resources
+D:\projects\att\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.MachineLogForm.resources
+D:\projects\att\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.MachineSettingForm.resources
+D:\projects\att\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.PreferenceForm.resources
+D:\projects\att\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.ReportDTRForm.resources
+D:\projects\att\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.ReportEnrolleeForm.resources
+D:\projects\att\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.ReportHolidayForm.resources
+D:\projects\att\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.UserForm.resources
+D:\projects\att\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.ViewDelinquentLogForm.resources
+D:\projects\att\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.WizardRepportForm.resources
+D:\projects\att\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Properties.Resources.resources
+D:\projects\att\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.csproj.GenerateResource.Cache
+D:\projects\att\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\RdlCompile.cache
+D:\projects\att\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\RdlCompile.compiled
+D:\projects\att\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.csprojResolveAssemblyReference.cache

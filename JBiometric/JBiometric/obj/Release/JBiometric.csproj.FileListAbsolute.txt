@@ -1,0 +1,8 @@
+D:\JoshFiles\ClassDLL\JBiometric\JBiometric\bin\Release\JBiometric.dll
+D:\JoshFiles\ClassDLL\JBiometric\JBiometric\bin\Release\JBiometric.pdb
+D:\JoshFiles\ClassDLL\JBiometric\JBiometric\bin\Release\Interop.zkemkeeper.dll
+D:\JoshFiles\ClassDLL\JBiometric\JBiometric\obj\Release\ResolveAssemblyReference.cache
+D:\JoshFiles\ClassDLL\JBiometric\JBiometric\obj\Release\Interop.zkemkeeper.dll
+D:\JoshFiles\ClassDLL\JBiometric\JBiometric\obj\Release\JBiometric.csproj.ResolveComReference.cache
+D:\JoshFiles\ClassDLL\JBiometric\JBiometric\obj\Release\JBiometric.dll
+D:\JoshFiles\ClassDLL\JBiometric\JBiometric\obj\Release\JBiometric.pdb

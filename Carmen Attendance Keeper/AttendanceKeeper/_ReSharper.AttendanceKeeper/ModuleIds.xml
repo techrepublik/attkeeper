@@ -1,0 +1,5 @@
+<Modules>
+  <Module PersistentId="d:Miscellaneous Files" ModuleId="System.Windows.Forms" />
+  <Module PersistentId="D9A1017F-6D0A-4164-9ED8-4356358217E0" ModuleId="AttendanceKeeper" />
+  <Module PersistentId="2EDF92AB-3492-41B0-8AEA-DD34FD096CB4" ModuleId="JBiometric" />
+</Modules>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="JBiometric">
+</Property><Property Name="Solution File" Value="D:\projects\JBiometric\JBiometric.sln">
+</Property><Property Name="Date" Value="Wednesday, April 13, 2011">
+</Property><Property Name="Time" Value="6:45 AM">
+</Property></Properties><Event ErrorLevel="0" Project="JBiometric" Source="JBiometric\JBiometric.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="JBiometric" Source="JBiometric\JBiometric.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="WindowsFormsTestBiometic" Source="WindowsFormsTestBiometic\WindowsFormsTestBiometic.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="WindowsFormsTestBiometic" Source="WindowsFormsTestBiometic\WindowsFormsTestBiometic.csproj" Description="Converted">
+</Event><Event ErrorLevel="2" Project="AttendanceKeeper" Source="..\AttKeeper\AttendanceKeeper\AttendanceKeeper\AttendanceKeeper.csproj" Description="Unable to open project file to perform upgrade.  ">
+</Event><Event ErrorLevel="0" Project="TestProject2" Source="TestProject2\TestProject2.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="TestProject2" Source="TestProject2\TestProject2.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="JBiometric.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="JBiometric.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="JBiometric" Source="JBiometric\JBiometric.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="WindowsFormsTestBiometic" Source="WindowsFormsTestBiometic\WindowsFormsTestBiometic.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="3" Project="" Source="LocalTestRun.testrunconfig" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="LocalTestRun.testrunconfig" Description="The file was converted to the current format.">
+</Event><Event ErrorLevel="0" Project="TestProject2" Source="TestProject2\TestProject2.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

@@ -1,0 +1,8 @@
+D:\josh\project\src\_src\JBiometric\JBiometric\JBiometric\bin\Debug\JBiometric.dll
+D:\josh\project\src\_src\JBiometric\JBiometric\JBiometric\bin\Debug\JBiometric.pdb
+D:\josh\project\src\_src\JBiometric\JBiometric\JBiometric\bin\Debug\Interop.zkemkeeper.dll
+D:\josh\project\src\_src\JBiometric\JBiometric\JBiometric\obj\Debug\ResolveAssemblyReference.cache
+D:\josh\project\src\_src\JBiometric\JBiometric\JBiometric\obj\Debug\Interop.zkemkeeper.dll
+D:\josh\project\src\_src\JBiometric\JBiometric\JBiometric\obj\Debug\JBiometric.csproj.ResolveComReference.cache
+D:\josh\project\src\_src\JBiometric\JBiometric\JBiometric\obj\Debug\JBiometric.dll
+D:\josh\project\src\_src\JBiometric\JBiometric\JBiometric\obj\Debug\JBiometric.pdb

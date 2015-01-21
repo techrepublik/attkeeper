@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AttendanceKeeper", "AttendanceKeeper\AttendanceKeeper.csproj", "{D9A1017F-6D0A-4164-9ED8-4356358217E0}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup1", "Setup1\Setup1.vdproj", "{9C9D349B-B783-4529-8DAD-49627F369AEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JBiometric", "..\..\JBiometric\JBiometric\JBiometric.csproj", "{2EDF92AB-3492-41B0-8AEA-DD34FD096CB4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9A1017F-6D0A-4164-9ED8-4356358217E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9A1017F-6D0A-4164-9ED8-4356358217E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9A1017F-6D0A-4164-9ED8-4356358217E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9A1017F-6D0A-4164-9ED8-4356358217E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C9D349B-B783-4529-8DAD-49627F369AEF}.Debug|Any CPU.ActiveCfg = Debug
+		{9C9D349B-B783-4529-8DAD-49627F369AEF}.Release|Any CPU.ActiveCfg = Release
+		{2EDF92AB-3492-41B0-8AEA-DD34FD096CB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EDF92AB-3492-41B0-8AEA-DD34FD096CB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EDF92AB-3492-41B0-8AEA-DD34FD096CB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EDF92AB-3492-41B0-8AEA-DD34FD096CB4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

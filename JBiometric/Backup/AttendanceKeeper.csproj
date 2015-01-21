@@ -1,0 +1,537 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D9A1017F-6D0A-4164-9ED8-4356358217E0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AttendanceKeeper</RootNamespace>
+    <AssemblyName>AttendanceKeeper</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <ApplicationIcon>Resources\Properties.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Interop.zkemkeeper, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\JoshFiles\ClassDLL\JBiometric\JBiometric\bin\Debug\Interop.zkemkeeper.dll</HintPath>
+    </Reference>
+    <Reference Include="JBiometric, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\JoshFiles\ClassDLL\JBiometric\JBiometric\bin\Debug\JBiometric.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=11.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" />
+    <Reference Include="Microsoft.ReportViewer.Common, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.SqlServer.ConnectionInfo, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SqlServer.ConnectionInfoExtended, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SqlServer.Management.Sdk.Sfc, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SqlServer.Smo, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SqlServer.SmoExtended, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SqlServer.SqlEnum, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.SqlServerCe, Version=3.5.1.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\ActionClass.cs" />
+    <Compile Include="Classes\CalendarColumn.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Classes\DataManagementClass.cs" />
+    <Compile Include="Classes\DateTimeClass.cs" />
+    <Compile Include="Classes\JDTRClass.cs" />
+    <Compile Include="Classes\JEnrollee.cs" />
+    <Compile Include="Classes\JLeaveClass.cs" />
+    <Compile Include="Classes\JSortingListClass.cs" />
+    <Compile Include="Classes\LeaveOB.cs" />
+    <Compile Include="Classes\PropertyComparer.cs" />
+    <Compile Include="Classes\SettingClass.cs" />
+    <Compile Include="Classes\UtilityClass.cs" />
+    <Compile Include="Classes\XMLManipulatorClass.cs" />
+    <Compile Include="Data\DTRData.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DTRData.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Management\AboutBoxA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Management\AboutBoxA.Designer.cs">
+      <DependentUpon>AboutBoxA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Management\BackupRestoreDBForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Management\BackupRestoreDBForm.Designer.cs">
+      <DependentUpon>BackupRestoreDBForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Management\BackupRestoreFileForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Management\BackupRestoreFileForm.Designer.cs">
+      <DependentUpon>BackupRestoreFileForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Management\DTRBatchForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Management\DTRBatchForm.Designer.cs">
+      <DependentUpon>DTRBatchForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Management\DTRLogForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Management\DTRLogForm.Designer.cs">
+      <DependentUpon>DTRLogForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Management\DTROverUnderTimeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Management\DTROverUnderTimeForm.Designer.cs">
+      <DependentUpon>DTROverUnderTimeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Management\DTRUpdateForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Management\DTRUpdateForm.Designer.cs">
+      <DependentUpon>DTRUpdateForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Management\DTRWizardForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Management\DTRWizardForm.Designer.cs">
+      <DependentUpon>DTRWizardForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Management\EnrolleeImportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Management\EnrolleeImportForm.Designer.cs">
+      <DependentUpon>EnrolleeImportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Management\LeaveListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Management\LeaveListForm.Designer.cs">
+      <DependentUpon>LeaveListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Management\LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Management\LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Management\DataAccessForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Management\DataAccessForm.Designer.cs">
+      <DependentUpon>DataAccessForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Management\DeviceSettingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Management\DeviceSettingForm.Designer.cs">
+      <DependentUpon>DeviceSettingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Management\DTRForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Management\DTRForm.Designer.cs">
+      <DependentUpon>DTRForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Management\DTRImportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Management\DTRImportForm.Designer.cs">
+      <DependentUpon>DTRImportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Management\DTRSettingDetailForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Management\DTRSettingDetailForm.Designer.cs">
+      <DependentUpon>DTRSettingDetailForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Management\DTRSettingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Management\DTRSettingForm.Designer.cs">
+      <DependentUpon>DTRSettingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Management\EmployeeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Management\EmployeeForm.Designer.cs">
+      <DependentUpon>EmployeeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Management\LeaveForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Management\LeaveForm.Designer.cs">
+      <DependentUpon>LeaveForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Management\MachineInstanceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Management\MachineInstanceForm.Designer.cs">
+      <DependentUpon>MachineInstanceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Management\MachineLogForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Management\MachineLogForm.Designer.cs">
+      <DependentUpon>MachineLogForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Management\MachineSettingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Management\MachineSettingForm.Designer.cs">
+      <DependentUpon>MachineSettingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Management\PreferenceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Management\PreferenceForm.Designer.cs">
+      <DependentUpon>PreferenceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Management\ReportDTRForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Management\ReportDTRForm.Designer.cs">
+      <DependentUpon>ReportDTRForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Management\ReportEnrolleeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Management\ReportEnrolleeForm.Designer.cs">
+      <DependentUpon>ReportEnrolleeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Management\ReportHolidayForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Management\ReportHolidayForm.Designer.cs">
+      <DependentUpon>ReportHolidayForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Management\UserForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Management\UserForm.Designer.cs">
+      <DependentUpon>UserForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Management\ViewDelinquentLogForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Management\ViewDelinquentLogForm.Designer.cs">
+      <DependentUpon>ViewDelinquentLogForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <None Include="Data\DTRData.dbml.layout">
+      <DependentUpon>DTRData.dbml</DependentUpon>
+    </None>
+    <EmbeddedResource Include="Management\AboutBoxA.resx">
+      <DependentUpon>AboutBoxA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Management\BackupRestoreDBForm.resx">
+      <DependentUpon>BackupRestoreDBForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Management\BackupRestoreFileForm.resx">
+      <DependentUpon>BackupRestoreFileForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Management\DTRBatchForm.resx">
+      <DependentUpon>DTRBatchForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Management\DTRLogForm.resx">
+      <DependentUpon>DTRLogForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Management\DTROverUnderTimeForm.resx">
+      <DependentUpon>DTROverUnderTimeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Management\DTRUpdateForm.resx">
+      <DependentUpon>DTRUpdateForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Management\DTRWizardForm.resx">
+      <DependentUpon>DTRWizardForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Management\EnrolleeImportForm.resx">
+      <DependentUpon>EnrolleeImportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Management\LeaveListForm.resx">
+      <DependentUpon>LeaveListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Management\LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Management\DataAccessForm.resx">
+      <DependentUpon>DataAccessForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Management\DeviceSettingForm.resx">
+      <DependentUpon>DeviceSettingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Management\DTRForm.resx">
+      <DependentUpon>DTRForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Management\DTRImportForm.resx">
+      <DependentUpon>DTRImportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Management\DTRSettingDetailForm.resx">
+      <DependentUpon>DTRSettingDetailForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Management\DTRSettingForm.resx">
+      <DependentUpon>DTRSettingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Management\EmployeeForm.resx">
+      <DependentUpon>EmployeeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Management\LeaveForm.resx">
+      <DependentUpon>LeaveForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Management\MachineInstanceForm.resx">
+      <DependentUpon>MachineInstanceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Management\MachineLogForm.resx">
+      <DependentUpon>MachineLogForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Management\MachineSettingForm.resx">
+      <DependentUpon>MachineSettingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Management\PreferenceForm.resx">
+      <DependentUpon>PreferenceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Management\ReportDTRForm.resx">
+      <DependentUpon>ReportDTRForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Management\ReportEnrolleeForm.resx">
+      <DependentUpon>ReportEnrolleeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Management\ReportHolidayForm.resx">
+      <DependentUpon>ReportHolidayForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Management\UserForm.resx">
+      <DependentUpon>UserForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Management\ViewDelinquentLogForm.resx">
+      <DependentUpon>ViewDelinquentLogForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\DTRReport.rdlc" />
+    <EmbeddedResource Include="Reports\ReportEnrollees.rdlc" />
+    <EmbeddedResource Include="Reports\ReportHoliday.rdlc" />
+    <EmbeddedResource Include="Reports\ReportOverUnder.rdlc" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Data\DTRData.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>DTRData.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\DataSources\AttendanceKeeper.Data.Enrollee.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.SQL.Server.Compact.3.5">
+      <Visible>False</Visible>
+      <ProductName>SQL Server Compact 3.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\DataSources\AttendanceKeeper.Classes.JEnrollee.datasource" />
+    <None Include="Properties\DataSources\AttendanceKeeper.Data.Machine.datasource" />
+    <None Include="Resources\Write.ico" />
+    <None Include="Resources\Download.ico" />
+    <None Include="Properties\DataSources\AttendanceKeeper.Data.Department.datasource" />
+    <None Include="Properties\DataSources\AttendanceKeeper.Data.DTR.datasource" />
+    <None Include="Properties\DataSources\AttendanceKeeper.Data.Miscellaneous.datasource" />
+    <None Include="Properties\DataSources\AttendanceKeeper.Data.Position.datasource" />
+    <None Include="Properties\DataSources\AttendanceKeeper.Data.Setting.datasource" />
+    <None Include="Resources\Search.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Save.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Write1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\DataSources\AttendanceKeeper.Data.MachineInstance.datasource" />
+    <None Include="Resources\Move.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Print.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\General Options.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\DataSources\AttendanceKeeper.Data.Holiday.datasource" />
+    <None Include="Properties\DataSources\AttendanceKeeper.Data.Leave.datasource" />
+    <None Include="Resources\Rename - Edit.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\DataSources\AttendanceKeeper.Data.User.datasource" />
+    <None Include="Resources\Calendar Month.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\DataSources\AttendanceKeeper.Data.MacDumpLog.datasource" />
+    <None Include="Resources\Delete.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Stop 2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Refresh.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\General Options1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Advanced Options.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Calendar Multiweek.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\List.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Contacts.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\DataSources\AttendanceKeeper.Classes.JDTRClass.datasource" />
+    <None Include="Properties\DataSources\AttendanceKeeper.Classes.JLeaveClass.datasource" />
+    <None Include="Resources\New Doc.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Properties.ico" />
+    <None Include="LocalTestRun.testrunconfig" />
+    <None Include="Properties\DataSources\AttendanceKeeper.Classes.LeaveOb.datasource" />
+    <None Include="Resources\b5d12673bd0f08b0f081022f4e08f556_m.jpg" />
+    <None Include="Resources\Seiko_66066_1.jpg" />
+    <None Include="Resources\Control Panel.ico" />
+    <None Include="Resources\Group.ico" />
+    <None Include="Resources\File.ico" />
+    <None Include="Properties\DataSources\AttendanceKeeper.Data.Company.datasource" />
+    <None Include="Resources\iface302.jpg" />
+    <None Include="Resources\login.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

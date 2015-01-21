@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="d48f08b1-eeb8-4c8d-89a2-aed534a5218a" name="kryptonite@KRYPTONITE-PC 2011-02-15 14:04:57" runUser="kryptonite-PC\kryptonite" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Default Run Configuration" id="c8df3b5d-1556-41b3-a6b7-1acbc2072c92">
+    <Deployment runDeploymentRoot="D:\JoshFiles\ClassDLL\JBiometric\TestProject2\bin\Debug\TestResults\kryptonite_KRYPTONITE-PC 2011-02-15 14_04_57" />
+    <Hosts skipUnhostableTests="false" />
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2011-02-15T14:04:57.2765121+08:00" queuing="2011-02-15T14:04:58.4035765+08:00" start="2011-02-15T14:04:58.5575854+08:00" finish="2011-02-15T14:05:08.9191780+08:00" />
+  <TestDefinitions>
+    <UnitTest name="LoadEnrolleeAttendanceDTRAllTest" storage="d:\joshfiles\classdll\jbiometric\testproject2\bin\debug\testproject2.dll" id="c234175b-e3fa-8744-2795-dfcb44a844f1">
+      <Css projectStructure="" iteration="" />
+      <Execution timeOut="1800000" id="7feed23a-b23e-4d79-a8b6-b5ce0613d648" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="AttendanceKeeper.exe" />
+      </DeploymentItems>
+      <TestMethod codeBase="D:/JoshFiles/ClassDLL/JBiometric/TestProject2/bin/Debug/TestProject2.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter" className="TestProject2.DataManagementClassTest, TestProject2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LoadEnrolleeAttendanceDTRAllTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="c234175b-e3fa-8744-2795-dfcb44a844f1" executionId="7feed23a-b23e-4d79-a8b6-b5ce0613d648" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="7feed23a-b23e-4d79-a8b6-b5ce0613d648" testId="c234175b-e3fa-8744-2795-dfcb44a844f1" testName="LoadEnrolleeAttendanceDTRAllTest" computerName="KRYPTONITE-PC" duration="00:00:10.1246250" startTime="2011-02-15T14:04:58.6325896+08:00" endTime="2011-02-15T14:05:08.8401735+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <StdOut>7:28
+7:28
+12:1
+12:55
+17:2
+7:55
+17:8
+12:28
+16:54
+17:11
+12:28
+8:18
+8:18
+8:18
+8:18
+8:27
+8:27
+8:7
+8:7
+12:58
+12:11
+12:1
+12:22</StdOut>
+        <ErrorInfo>
+          <Message>Test method TestProject2.DataManagementClassTest.LoadEnrolleeAttendanceDTRAllTest threw exception:  System.InvalidOperationException: Collection was modified; enumeration operation may not execute..</Message>
+          <StackTrace>    at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Collections.Generic.List`1.Enumerator.MoveNextRare()
+   at System.Collections.Generic.List`1.Enumerator.MoveNext()
+   at AttendanceKeeper.Classes.DataManagementClass.LoadEnrolleeAttendanceDTRAll(List`1 lEnrollee, Int32 iMonth, Int32 iYear, List`1&amp; lMacDumpLogs) in D:\Projects\AttKeeper\AttendanceKeeper\AttendanceKeeper\Classes\DataManagementClass.cs:line 558
+   at AttendanceKeeper.Classes.DataManagementClass_Accessor.LoadEnrolleeAttendanceDTRAll(List`1 lEnrollee, Int32 iMonth, Int32 iYear, List`1&amp; lMacDumpLogs)
+   at TestProject2.DataManagementClassTest.LoadEnrolleeAttendanceDTRAllTest() in D:\JoshFiles\ClassDLL\JBiometric\TestProject2\DataManagementClassTest.cs:line 83
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

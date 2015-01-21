@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="2a1c9ba4-d4a3-4e98-bf0d-4453cc6db68f" name="kryptonite@KRYPTONITE-PC 2011-02-15 14:15:58" runUser="kryptonite-PC\kryptonite" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Default Run Configuration" id="28956b6e-f5d6-49df-b3f4-08baf3cfe524">
+    <Deployment runDeploymentRoot="D:\JoshFiles\ClassDLL\JBiometric\TestProject2\bin\Debug\TestResults\kryptonite_KRYPTONITE-PC 2011-02-15 14_15_58" />
+    <Hosts skipUnhostableTests="false" />
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2011-02-15T14:15:58.0493061+08:00" queuing="2011-02-15T14:15:59.1233676+08:00" start="2011-02-15T14:15:59.3113783+08:00" finish="2011-02-15T14:19:35.8457634+08:00" />
+  <TestDefinitions>
+    <UnitTest name="LoadEnrolleeAttendanceDTRAllTest" storage="d:\joshfiles\classdll\jbiometric\testproject2\bin\debug\testproject2.dll" id="c234175b-e3fa-8744-2795-dfcb44a844f1">
+      <Css projectStructure="" iteration="" />
+      <Execution timeOut="1800000" id="2de28a35-24f8-4dd6-933b-18d833e936f7" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="AttendanceKeeper.exe" />
+      </DeploymentItems>
+      <TestMethod codeBase="D:/JoshFiles/ClassDLL/JBiometric/TestProject2/bin/Debug/TestProject2.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter" className="TestProject2.DataManagementClassTest, TestProject2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LoadEnrolleeAttendanceDTRAllTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="c234175b-e3fa-8744-2795-dfcb44a844f1" executionId="2de28a35-24f8-4dd6-933b-18d833e936f7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="2de28a35-24f8-4dd6-933b-18d833e936f7" testId="c234175b-e3fa-8744-2795-dfcb44a844f1" testName="LoadEnrolleeAttendanceDTRAllTest" computerName="KRYPTONITE-PC" duration="00:03:36.2987226" startTime="2011-02-15T14:15:59.3933830+08:00" endTime="2011-02-15T14:19:35.7737592+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <StdOut>7:28
+7:28
+12:1
+12:55
+17:2
+7:55
+17:8
+12:28
+16:54
+17:11
+12:28
+8:18
+8:18
+8:18
+8:18
+8:27
+8:27
+8:7
+8:7
+12:58
+12:11
+12:1
+12:22
+101, 1/24/2011 12:00:00 AM
+101, 1/25/2011 12:00:00 AM
+101, 1/26/2011 12:00:00 AM
+101, 1/27/2011 12:00:00 AM
+101, 1/28/2011 12:00:00 AM
+101, 1/31/2011 12:00:00 AM
+101, 2/1/2011 12:00:00 AM</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

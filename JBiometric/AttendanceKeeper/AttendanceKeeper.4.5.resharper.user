@@ -1,0 +1,572 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="D9A1017F-6D0A-4164-9ED8-4356358217E0/d:Management/f:DTRForm.cs" caret="489" fromTop="13" />
+      <File id="D9A1017F-6D0A-4164-9ED8-4356358217E0/d:Management/f:PreferenceForm.cs" caret="4709" fromTop="13" />
+      <File id="D9A1017F-6D0A-4164-9ED8-4356358217E0/d:Management/f:EmployeeForm.cs" caret="1912" fromTop="17" />
+      <File id="D9A1017F-6D0A-4164-9ED8-4356358217E0/f:Program.cs" caret="0" fromTop="0" />
+      <File id="D9A1017F-6D0A-4164-9ED8-4356358217E0/f:MainForm.cs" caret="1803" fromTop="25" />
+      <File id="D9A1017F-6D0A-4164-9ED8-4356358217E0/d:Management/f:DTRSettingForm.cs" caret="2654" fromTop="15" />
+      <File id="D9A1017F-6D0A-4164-9ED8-4356358217E0/d:Management/f:DTRSettingDetailForm.cs" caret="1756" fromTop="19" />
+      <File id="D9A1017F-6D0A-4164-9ED8-4356358217E0/f:app.config" caret="515" fromTop="9" />
+      <File id="D9A1017F-6D0A-4164-9ED8-4356358217E0/d:Data/f:DTRData.designer.cs" caret="91161" fromTop="4" />
+      <File id="D9A1017F-6D0A-4164-9ED8-4356358217E0/d:Classes/f:ActionClass.cs" caret="39464" fromTop="893" />
+      <File id="D9A1017F-6D0A-4164-9ED8-4356358217E0/d:Management/f:MachineLogForm.cs" caret="7133" fromTop="17" />
+      <File id="D9A1017F-6D0A-4164-9ED8-4356358217E0/d:Management/f:MachineLogForm.Designer.cs" caret="5988" fromTop="16" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="D9A1017F-6D0A-4164-9ED8-4356358217E0/d:Management/f:DTRSettingForm.cs" caret="480" fromTop="17" />
+      <File id="D9A1017F-6D0A-4164-9ED8-4356358217E0/d:Management/f:DTRSettingForm.cs" caret="2708" fromTop="21" />
+      <File id="D9A1017F-6D0A-4164-9ED8-4356358217E0/d:Management/f:DTRSettingDetailForm.cs" caret="536" fromTop="8" />
+      <File id="D9A1017F-6D0A-4164-9ED8-4356358217E0/f:app.config" caret="515" fromTop="7" />
+      <File id="D9A1017F-6D0A-4164-9ED8-4356358217E0/f:app.config" caret="0" fromTop="0" />
+      <File id="D9A1017F-6D0A-4164-9ED8-4356358217E0/d:Management/f:DTRSettingDetailForm.cs" caret="392" fromTop="2" />
+      <File id="D9A1017F-6D0A-4164-9ED8-4356358217E0/d:Management/f:DTRSettingForm.cs" caret="2654" fromTop="15" />
+      <File id="D9A1017F-6D0A-4164-9ED8-4356358217E0/d:Management/f:DTRSettingDetailForm.cs" caret="703" fromTop="10" />
+      <File id="D9A1017F-6D0A-4164-9ED8-4356358217E0/d:Management/f:DTRSettingDetailForm.cs" caret="2166" fromTop="30" />
+      <File id="D9A1017F-6D0A-4164-9ED8-4356358217E0/d:Management/f:DTRSettingDetailForm.cs" caret="253" fromTop="8" />
+      <File id="D9A1017F-6D0A-4164-9ED8-4356358217E0/d:Management/f:DTRSettingDetailForm.cs" caret="947" fromTop="9" />
+      <File id="D9A1017F-6D0A-4164-9ED8-4356358217E0/d:Management/f:DTRSettingDetailForm.cs" caret="1743" fromTop="17" />
+      <File id="D9A1017F-6D0A-4164-9ED8-4356358217E0/d:Management/f:DTRSettingDetailForm.cs" caret="2166" fromTop="19" />
+      <File id="D9A1017F-6D0A-4164-9ED8-4356358217E0/f:app.config" caret="515" fromTop="9" />
+      <File id="D9A1017F-6D0A-4164-9ED8-4356358217E0/d:Data/f:DTRData.designer.cs" caret="91161" fromTop="0" />
+      <File id="D9A1017F-6D0A-4164-9ED8-4356358217E0/d:Data/f:DTRData.designer.cs" caret="91161" fromTop="4" />
+      <File id="D9A1017F-6D0A-4164-9ED8-4356358217E0/d:Data/f:DTRData.designer.cs" caret="91161" fromTop="4" />
+      <File id="D9A1017F-6D0A-4164-9ED8-4356358217E0/d:Classes/f:ActionClass.cs" caret="39464" fromTop="886" />
+      <File id="D9A1017F-6D0A-4164-9ED8-4356358217E0/d:Management/f:MachineLogForm.cs" caret="7133" fromTop="30" />
+      <File id="D9A1017F-6D0A-4164-9ED8-4356358217E0/d:Management/f:MachineLogForm.cs" caret="7133" fromTop="10" />
+      <File id="D9A1017F-6D0A-4164-9ED8-4356358217E0/d:Management/f:MachineLogForm.cs" caret="7133" fromTop="17" />
+      <File id="D9A1017F-6D0A-4164-9ED8-4356358217E0/d:Management/f:MachineLogForm.Designer.cs" caret="16718" fromTop="12" />
+    </RecentEdits>
+  </RecentFiles>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="using" priority="38" />
+      <Item value="AttendanceKeeper" priority="10" />
+      <Item value="Management" priority="0" />
+      <Item value="EmployeeForm" priority="1" />
+      <Item value="new" priority="71" />
+      <Item value="ef" priority="3" />
+      <Item value="this" priority="11" />
+      <Item value="WindowState" priority="2" />
+      <Item value="FormClosed" priority="0" />
+      <Item value="Form" priority="0" />
+      <Item value="FormWindowState" priority="2" />
+      <Item value="e" priority="28" />
+      <Item value="DTRForm" priority="1" />
+      <Item value="df" priority="3" />
+      <Item value="DTRSettingForm" priority="2" />
+      <Item value="MdiParent" priority="0" />
+      <Item value="dtrSet" priority="0" />
+      <Item value="propg" priority="2" />
+      <Item value="prop" priority="15" />
+      <Item value="int" priority="56" />
+      <Item value="string" priority="17" />
+      <Item value="DateTime" priority="6" />
+      <Item value="var" priority="67" />
+      <Item value="PreferenceForm" priority="0" />
+      <Item value="StartPosition" priority="1" />
+      <Item value="FormStartPosition" priority="2" />
+      <Item value="MaximizeBox" priority="1" />
+      <Item value="false" priority="20" />
+      <Item value="MinimizeBox" priority="1" />
+      <Item value="FormBorderStyle" priority="4" />
+      <Item value="pf" priority="0" />
+      <Item value="toolStripComboBoxView" priority="0" />
+      <Item value="MachineLogForm" priority="0" />
+      <Item value="mlf" priority="0" />
+      <Item value="public" priority="43" />
+      <Item value="static" priority="41" />
+      <Item value="Data" priority="6" />
+      <Item value="Enrollee" priority="14" />
+      <Item value="enrollee" priority="27" />
+      <Item value="DTRDataDataContext" priority="48" />
+      <Item value="if" priority="99" />
+      <Item value="null" priority="19" />
+      <Item value="data" priority="98" />
+      <Item value="en" priority="10" />
+      <Item value="try" priority="18" />
+      <Item value="EntryPointNotFoundException" priority="0" />
+      <Item value="else" priority="14" />
+      <Item value="iResult" priority="37" />
+      <Item value="Console" priority="24" />
+      <Item value="ex" priority="18" />
+      <Item value="return" priority="46" />
+      <Item value="bool" priority="22" />
+      <Item value="true" priority="17" />
+      <Item value="bResult" priority="23" />
+      <Item value="List" priority="14" />
+      <Item value="from" priority="16" />
+      <Item value="orderby" priority="8" />
+      <Item value="ascending" priority="10" />
+      <Item value="select" priority="13" />
+      <Item value="q" priority="14" />
+      <Item value="lEnrollees" priority="3" />
+      <Item value="where" priority="8" />
+      <Item value="sIdNo" priority="0" />
+      <Item value="sLastName" priority="0" />
+      <Item value="iEnrollNo" priority="1" />
+      <Item value="bActive" priority="0" />
+      <Item value="Department" priority="18" />
+      <Item value="department" priority="9" />
+      <Item value="d" priority="36" />
+      <Item value="de" priority="2" />
+      <Item value="sDeparmentName" priority="0" />
+      <Item value="iDepartmentId" priority="1" />
+      <Item value="iEnrolleeId" priority="6" />
+      <Item value="Position" priority="13" />
+      <Item value="position" priority="13" />
+      <Item value="p" priority="12" />
+      <Item value="po" priority="2" />
+      <Item value="iPositionId" priority="0" />
+      <Item value="Setting" priority="13" />
+      <Item value="setting" priority="11" />
+      <Item value="s" priority="13" />
+      <Item value="se" priority="3" />
+      <Item value="Queryable" priority="0" />
+      <Item value="iSetting" priority="0" />
+      <Item value="SettingDetail" priority="10" />
+      <Item value="settingDetail" priority="30" />
+      <Item value="sed" priority="0" />
+      <Item value="sd" priority="22" />
+      <Item value="iSettingId" priority="0" />
+      <Item value="Machine" priority="12" />
+      <Item value="machine" priority="20" />
+      <Item value="m" priority="34" />
+      <Item value="ma" priority="2" />
+      <Item value="iMachineId" priority="1" />
+      <Item value="DTR" priority="8" />
+      <Item value="dtr" priority="18" />
+      <Item value="dt" priority="2" />
+      <Item value="iDTRId" priority="0" />
+      <Item value="void" priority="3" />
+      <Item value="departmentBindingSource" priority="9" />
+      <Item value="Classes" priority="3" />
+      <Item value="ActionClass" priority="15" />
+      <Item value="InitComponents" priority="1" />
+      <Item value="departmentDataGridView" priority="3" />
+      <Item value="positionsDataGridView" priority="4" />
+      <Item value="positionsBindingSource" priority="6" />
+      <Item value="Action" priority="1" />
+      <Item value="private" priority="4" />
+      <Item value="settingBindingSource" priority="5" />
+      <Item value="settingDetailsDataGridView" priority="2" />
+      <Item value="settingDetailsBindingSource" priority="8" />
+      <Item value="settingDataGridView" priority="1" />
+      <Item value="enrolleeBindingSource" priority="4" />
+      <Item value="departmentIdComboBox" priority="0" />
+      <Item value="positionIdComboBox" priority="0" />
+      <Item value="settingIdComboBox" priority="0" />
+      <Item value="enrolleeIdNoTextBox" priority="0" />
+      <Item value="MessageBox" priority="2" />
+      <Item value="MessageBoxButtons" priority="1" />
+      <Item value="MessageBoxIcon" priority="2" />
+      <Item value="foreach" priority="1" />
+      <Item value="list" priority="0" />
+      <Item value="toolStripComboBoxDuration" priority="0" />
+      <Item value="LastName" priority="1" />
+      <Item value="FirstName" priority="2" />
+      <Item value="MiddleName" priority="1" />
+      <Item value="JEnrollee" priority="4" />
+      <Item value="j" priority="4" />
+      <Item value="item" priority="4" />
+      <Item value="EnrolleeId" priority="0" />
+      <Item value="EnrolleeNo" priority="0" />
+      <Item value="listBoxEnrollees" priority="1" />
+      <Item value="DataManagementClass" priority="0" />
+      <Item value="FullName" priority="1" />
+      <Item value="Miscellaneous" priority="10" />
+      <Item value="misc" priority="12" />
+      <Item value="mi" priority="2" />
+      <Item value="iMisId" priority="0" />
+      <Item value="miscellaneousDataGridView" priority="3" />
+      <Item value="miscellaneousBindingSource" priority="3" />
+      <Item value="System" priority="1" />
+      <Item value="Application" priority="0" />
+      <Item value="ThreadStaticAttribute" priority="0" />
+      <Item value="Thread" priority="1" />
+      <Item value="enum" priority="1" />
+      <Item value="Choice" priority="7" />
+      <Item value="myChoice" priority="3" />
+      <Item value="switch" priority="1" />
+      <Item value="case" priority="4" />
+      <Item value="break" priority="3" />
+      <Item value="default" priority="0" />
+      <Item value="DialogResult" priority="6" />
+      <Item value="UtilityClass" priority="5" />
+      <Item value="dResult" priority="5" />
+      <Item value="Holiday" priority="9" />
+      <Item value="holiday" priority="13" />
+      <Item value="h" priority="13" />
+      <Item value="ho" priority="2" />
+      <Item value="iHolidayId" priority="1" />
+      <Item value="Leave" priority="8" />
+      <Item value="leave" priority="14" />
+      <Item value="l" priority="18" />
+      <Item value="le" priority="2" />
+      <Item value="long" priority="0" />
+      <Item value="User" priority="6" />
+      <Item value="user" priority="12" />
+      <Item value="u" priority="13" />
+      <Item value="us" priority="2" />
+      <Item value="as" priority="0" />
+      <Item value="iUserId" priority="1" />
+      <Item value="DTRSettingDetailForm" priority="1" />
+      <Item value="ddf" priority="6" />
+      <Item value="f" priority="0" />
+      <Item value="OSetting" priority="0" />
+      <Item value="textBoxSetting" priority="0" />
+      <Item value="sTimeInAM" priority="0" />
+      <Item value="sTimeOutAM" priority="0" />
+      <Item value="sTimeInPM" priority="0" />
+      <Item value="sTimeOutPM" priority="0" />
+      <Item value="sTimeInOT" priority="0" />
+      <Item value="sTimeOutOT" priority="0" />
+      <Item value="String" priority="0" />
+      <Item value="lMachine" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AttendanceKeeper.Management.EmployeeForm">
+      <Item value="MaximizeBox" priority="0" />
+      <Item value="MdiParent" priority="0" />
+      <Item value="WindowTarget" priority="0" />
+      <Item value="WindowState" priority="0" />
+      <Item value="Show" priority="0" />
+      <Item value="Validate" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.FormWindowState">
+      <Item value="Maximized" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AttendanceKeeper.Management.DTRForm">
+      <Item value="MdiParent" priority="0" />
+      <Item value="WindowState" priority="0" />
+      <Item value="Show" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AttendanceKeeper.Management.DTRSettingForm">
+      <Item value="Show" priority="0" />
+      <Item value="Validate" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.FormStartPosition">
+      <Item value="CenterScreen" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.FormBorderStyle">
+      <Item value="FixedSingle" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AttendanceKeeper.Management.PreferenceForm">
+      <Item value="ShowDialog" priority="0" />
+      <Item value="Validated" priority="0" />
+      <Item value="Validate" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ToolStripComboBox">
+      <Item value="Items" priority="4" />
+      <Item value="SelectedIndex" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.FormBorderStyle">
+      <Item value="FixedSingle" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AttendanceKeeper.Management.MachineLogForm">
+      <Item value="ShowDialog" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AttendanceKeeper.Data.Enrollee">
+      <Item value="EnrolleeId" priority="10" />
+      <Item value="EnrolleeIdNo" priority="2" />
+      <Item value="EnrolleeNo" priority="3" />
+      <Item value="LastName" priority="5" />
+      <Item value="FirstName" priority="3" />
+      <Item value="MiddleName" priority="2" />
+      <Item value="Address" priority="1" />
+      <Item value="Sex" priority="2" />
+      <Item value="BirthDate" priority="1" />
+      <Item value="DateHired" priority="1" />
+      <Item value="DepartmentId" priority="2" />
+      <Item value="PositionId" priority="2" />
+      <Item value="SettingId" priority="2" />
+      <Item value="IsActive" priority="2" />
+      <Item value="EditedBy" priority="1" />
+      <Item value="EditedOn" priority="1" />
+      <Item value="Picture" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AttendanceKeeper.Data.DTRDataDataContext">
+      <Item value="Enrollees" priority="8" />
+      <Item value="SubmitChanges" priority="24" />
+      <Item value="Departments" priority="5" />
+      <Item value="Positions" priority="5" />
+      <Item value="Settings" priority="5" />
+      <Item value="SettingDetails" priority="4" />
+      <Item value="Machines" priority="7" />
+      <Item value="DTRs" priority="5" />
+      <Item value="Miscellaneous" priority="6" />
+      <Item value="Holidays" priority="5" />
+      <Item value="Leaves" priority="5" />
+      <Item value="Users" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Linq.Table`1">
+      <Item value="FirstOrDefault" priority="31" />
+      <Item value="InsertOnSubmit" priority="10" />
+      <Item value="DeleteOnSubmit" priority="10" />
+      <Item value="First" priority="0" />
+      <Item value="InsertAllOnSubmit" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Console">
+      <Item value="WriteLine" priority="23" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Exception">
+      <Item value="Message" priority="21" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="ToString" priority="2" />
+      <Item value="StartsWith" priority="1" />
+      <Item value="Trim" priority="1" />
+      <Item value="ToUpper" priority="0" />
+      <Item value="Length" priority="0" />
+      <Item value="Substring" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Linq.IOrderedQueryable`1">
+      <Item value="ToList" priority="7" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AttendanceKeeper.Data.Department">
+      <Item value="DepartmentId" priority="16" />
+      <Item value="DepartmentName" priority="3" />
+      <Item value="EditedBy" priority="1" />
+      <Item value="EditedOn" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AttendanceKeeper.Data.Position">
+      <Item value="PositionId" priority="11" />
+      <Item value="PositionName" priority="2" />
+      <Item value="DepartmentId" priority="3" />
+      <Item value="EditedOn" priority="2" />
+      <Item value="EditedBy" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AttendanceKeeper.Data.Setting">
+      <Item value="SettingId" priority="11" />
+      <Item value="SettingName" priority="2" />
+      <Item value="EditedBy" priority="1" />
+      <Item value="EdtiedOn" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AttendanceKeeper.Data.SettingDetail">
+      <Item value="SettingDetailINOT" priority="3" />
+      <Item value="SettingDetailId" priority="9" />
+      <Item value="SettingId" priority="3" />
+      <Item value="SettingDetailDay" priority="1" />
+      <Item value="SettingDetailINAM" priority="2" />
+      <Item value="SettingDetailOUTAM" priority="2" />
+      <Item value="SettingDetailINPM" priority="2" />
+      <Item value="SettingDetailOUTPM" priority="2" />
+      <Item value="SettingDetailOUTOT" priority="2" />
+      <Item value="SettingDetailAMIn01" priority="2" />
+      <Item value="SettingDetailAMIn02" priority="1" />
+      <Item value="SettingDetailAMOut01" priority="1" />
+      <Item value="SettingDetailAMOut02" priority="1" />
+      <Item value="SettingDetailPMIn01" priority="1" />
+      <Item value="SettingDetailPMIn02" priority="1" />
+      <Item value="SettingDetailPMOut01" priority="1" />
+      <Item value="SettingDetailPMOut02" priority="2" />
+      <Item value="SettingDetailOTIn01" priority="1" />
+      <Item value="SettingDetailOTIn02" priority="2" />
+      <Item value="SettingDetailOTOut01" priority="0" />
+      <Item value="SettingDetailOTOut02" priority="1" />
+      <Item value="SettingDetailActive" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Linq.IQueryable`1">
+      <Item value="ToList" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AttendanceKeeper.Data.Machine">
+      <Item value="MachineId" priority="11" />
+      <Item value="MachineNo" priority="1" />
+      <Item value="EnrolleeId" priority="2" />
+      <Item value="EnrolleeNo" priority="2" />
+      <Item value="IYear" priority="1" />
+      <Item value="IMonth" priority="1" />
+      <Item value="IDay" priority="1" />
+      <Item value="IHour" priority="1" />
+      <Item value="IMin" priority="1" />
+      <Item value="ISecond" priority="1" />
+      <Item value="VerifyCode" priority="1" />
+      <Item value="InOutCode" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AttendanceKeeper.Data.DTR">
+      <Item value="DTRId" priority="10" />
+      <Item value="DTRDate" priority="3" />
+      <Item value="EnrolleeId" priority="2" />
+      <Item value="EnrolleeNo" priority="1" />
+      <Item value="TimeInAM" priority="1" />
+      <Item value="TimeOutAM" priority="1" />
+      <Item value="TimeInPM" priority="1" />
+      <Item value="TimeOutPM" priority="1" />
+      <Item value="TimeInOT" priority="1" />
+      <Item value="TimeOutOT" priority="1" />
+      <Item value="TotalHours" priority="1" />
+      <Item value="DTRStatus" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.BindingSource">
+      <Item value="DataSource" priority="8" />
+      <Item value="EndEdit" priority="6" />
+      <Item value="Current" priority="21" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@AttendanceKeeper.Classes.ActionClass">
+      <Item value="FillDepartments" priority="1" />
+      <Item value="SaveDepartment" priority="0" />
+      <Item value="SavePosition" priority="0" />
+      <Item value="FillPostions" priority="1" />
+      <Item value="FillSettings" priority="1" />
+      <Item value="SaveSetting" priority="0" />
+      <Item value="SaveSettingDetail" priority="1" />
+      <Item value="SaveEnrollee" priority="0" />
+      <Item value="FillEnrollees" priority="0" />
+      <Item value="SaveMiscellaneous" priority="0" />
+      <Item value="FillMiscellaneous" priority="0" />
+      <Item value="DeleteDepartment" priority="0" />
+      <Item value="DeletePosition" priority="0" />
+      <Item value="DeleteMiscellaneous" priority="0" />
+      <Item value="FillSettingDetails" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.DataGridView">
+      <Item value="Rows" priority="8" />
+      <Item value="IsCurrentRowDirty" priority="4" />
+      <Item value="CurrentRow" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.DataGridViewRowCollection">
+      <Item value="CollectionChanged" priority="0" />
+      <Item value="Count" priority="4" />
+      <Item value="Remove" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int32">
+      <Item value="ToString" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ComboBox">
+      <Item value="SelectedIndex" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.TextBox">
+      <Item value="Focus" priority="0" />
+      <Item value="TextAlignChanged" priority="0" />
+      <Item value="Text" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.MessageBox">
+      <Item value="Show" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.MessageBoxButtons">
+      <Item value="OKCancel" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.MessageBoxIcon">
+      <Item value="Information" priority="1" />
+      <Item value="Warning" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ComboBox+ObjectCollection">
+      <Item value="Add" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@AttendanceKeeper.Classes.UtilityClass">
+      <Item value="FillMonth" priority="0" />
+      <Item value="GetDeleteDialog" priority="3" />
+      <Item value="GetMessageBox" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AttendanceKeeper.Classes.JEnrollee">
+      <Item value="EnrolleeId" priority="0" />
+      <Item value="EnrolleeNo" priority="0" />
+      <Item value="LastName" priority="0" />
+      <Item value="FirstName" priority="0" />
+      <Item value="MiddleName" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Add" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ListBox">
+      <Item value="DataSource" priority="0" />
+      <Item value="DisplayMember" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@AttendanceKeeper.Classes.DataManagementClass">
+      <Item value="LoadEnrollees" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AttendanceKeeper.Data.Miscellaneous">
+      <Item value="MiscId" priority="9" />
+      <Item value="MiscGraceInAM" priority="1" />
+      <Item value="MiscGraceInPM" priority="1" />
+      <Item value="MiscGraceInOT" priority="1" />
+      <Item value="MiscRegularHours" priority="1" />
+      <Item value="MiscActive" priority="1" />
+      <Item value="EditedOn" priority="1" />
+      <Item value="EditedBy" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ToolStripStatusLabel">
+      <Item value="Text" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Threading.Thread">
+      <Item value="Sleep" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@AttendanceKeeper.Management.PreferenceForm+Choice">
+      <Item value="EDepartment" priority="2" />
+      <Item value="EPosition" priority="1" />
+      <Item value="EMisc" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.DialogResult">
+      <Item value="No" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.DialogResult">
+      <Item value="None" priority="0" />
+      <Item value="No" priority="0" />
+      <Item value="Yes" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.DataGridViewRow">
+      <Item value="AccessibilityObject" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AttendanceKeeper.Data.Holiday">
+      <Item value="HolidayId" priority="9" />
+      <Item value="HolidayDate" priority="2" />
+      <Item value="HolidayType" priority="1" />
+      <Item value="HolidayActive" priority="1" />
+      <Item value="HolidayNote" priority="1" />
+      <Item value="EditedBy" priority="1" />
+      <Item value="EditedOn" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AttendanceKeeper.Data.Leave">
+      <Item value="LeaveId" priority="9" />
+      <Item value="LeaveNo" priority="1" />
+      <Item value="LeaveDateFrom" priority="2" />
+      <Item value="LeaveDateTo" priority="1" />
+      <Item value="LeaveType" priority="1" />
+      <Item value="LeaveNoDays" priority="1" />
+      <Item value="LeaveReason" priority="1" />
+      <Item value="EditedOn" priority="1" />
+      <Item value="EditedBy" priority="1" />
+      <Item value="EnrolleeId" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AttendanceKeeper.Data.User">
+      <Item value="UserId" priority="10" />
+      <Item value="UserName" priority="2" />
+      <Item value="Password" priority="1" />
+      <Item value="Level" priority="1" />
+      <Item value="Active" priority="1" />
+      <Item value="EditedOn" priority="1" />
+      <Item value="EditedBy" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AttendanceKeeper.Management.DTRSettingDetailForm">
+      <Item value="MaximizeBox" priority="0" />
+      <Item value="MinimizeBox" priority="0" />
+      <Item value="FormBorderStyle" priority="0" />
+      <Item value="StartPosition" priority="0" />
+      <Item value="ShowDialog" priority="0" />
+      <Item value="OSetting" priority="0" />
+      <Item value="Validated" priority="0" />
+      <Item value="Validate" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Nullable`1">
+      <Item value="Equals" priority="0" />
+      <Item value="ToString" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Format" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

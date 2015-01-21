@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="e774b4c3-d3ef-41cf-939e-f13a4780c545" name="kryptonite@KRYPTONITE-PC 2011-02-28 11:24:42" runUser="kryptonite-PC\kryptonite" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Default Run Configuration" id="a0b120d5-a021-4ee5-851b-c2a9db50759d">
+    <Deployment runDeploymentRoot="D:\JoshFiles\ClassDLL\JBiometric\TestProject2\bin\Debug\TestResults\kryptonite_KRYPTONITE-PC 2011-02-28 11_24_42" />
+    <Hosts skipUnhostableTests="false" />
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2011-02-28T11:24:42.2219703+08:00" queuing="2011-02-28T11:24:44.1630814+08:00" start="2011-02-28T11:24:44.3300909+08:00" finish="2011-02-28T11:24:48.4903289+08:00" />
+  <TestDefinitions>
+    <UnitTest name="ImportEnrolleesTest" storage="d:\joshfiles\classdll\jbiometric\testproject2\bin\debug\testproject2.dll" id="9a4d54e7-f50d-4173-d65c-635ed9136a74">
+      <Css projectStructure="" iteration="" />
+      <Execution timeOut="1800000" id="39e29c69-a2ec-45e9-a3d4-80841240c051" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="D:/JoshFiles/ClassDLL/JBiometric/TestProject2/bin/Debug/TestProject2.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter" className="TestProject2.UtilityClassTest, TestProject2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ImportEnrolleesTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="9a4d54e7-f50d-4173-d65c-635ed9136a74" executionId="39e29c69-a2ec-45e9-a3d4-80841240c051" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="39e29c69-a2ec-45e9-a3d4-80841240c051" testId="9a4d54e7-f50d-4173-d65c-635ed9136a74" testName="ImportEnrolleesTest" computerName="KRYPTONITE-PC" duration="00:00:03.8591025" startTime="2011-02-28T11:24:44.4100955+08:00" endTime="2011-02-28T11:24:48.3823227+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestProject2.UtilityClassTest.ImportEnrolleesTest threw exception:  System.Runtime.InteropServices.COMException: 'C:\Users\kryptonite\Desktop.Book1.xlsx' could not be found. Check the spelling of the file name, and verify that the file location is correct.
+
+If you are trying to open the file from your list of most recently used files, make sure that the file has not been renamed, moved, or deleted..</Message>
+          <StackTrace>    at Microsoft.Office.Interop.Excel.Workbooks.Open(String Filename, Object UpdateLinks, Object ReadOnly, Object Format, Object Password, Object WriteResPassword, Object IgnoreReadOnlyRecommended, Object Origin, Object Delimiter, Object Editable, Object Notify, Object Converter, Object AddToMru, Object Local, Object CorruptLoad)
+   at AttendanceKeeper.Classes.UtilityClass.ImportEnrollees(String path) in D:\Projects\AttKeeper\AttendanceKeeper\AttendanceKeeper\Classes\UtilityClass.cs:line 341
+   at TestProject2.UtilityClassTest.ImportEnrolleesTest() in D:\JoshFiles\ClassDLL\JBiometric\TestProject2\UtilityClassTest.cs:line 78
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

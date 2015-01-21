@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="DTRDbase" Class="DTRDataDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.\JEXPRESS;AttachDbFilename=|DataDirectory|\Data\DTRDbase.mdf;Integrated Security=True;Connect Timeout=30;User Instance=True" SettingsObjectName="AttendanceKeeper.Properties.Settings" SettingsPropertyName="DTRDbaseConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Departments" Member="Departments">
+    <Type Name="Department">
+      <Column Name="DepartmentId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="DepartmentName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="EditedBy" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="EditedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Association Name="Department_Position" Member="Positions" ThisKey="DepartmentId" OtherKey="DepartmentId" Type="Position" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Positions" Member="Positions">
+    <Type Name="Position">
+      <Column Name="PositionId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PositionName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="DepartmentId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="EditedBy" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="EditedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Association Name="Department_Position" Member="Department" ThisKey="DepartmentId" OtherKey="DepartmentId" Type="Department" IsForeignKey="true" DeleteRule="CASCADE" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SettingDetails" Member="SettingDetails">
+    <Type Name="SettingDetail">
+      <Column Name="SettingDetailId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="SettingId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SettingDetailDay" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="SettingDetailAMIn01" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="SettingDetailAMIn02" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="SettingDetailAMOut01" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="SettingDetailAMOut02" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="SettingDetailPMIn01" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="SettingDetailPMIn02" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="SettingDetailPMOut01" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="SettingDetailPMOut02" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="SettingDetailOTIn01" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="SettingDetailOTIn02" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="SettingDetailOTOut01" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="SettingDetailOTOut02" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="SettingDetailINAM" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="SettingDetailOUTAM" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="SettingDetailINPM" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="SettingDetailOUTPM" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="SettingDetailINOT" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="SettingDetailOUTOT" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="SettingDetailActive" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="EditedBy" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="EditedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Association Name="Setting_SettingDetail" Member="Setting" ThisKey="SettingId" OtherKey="SettingId" Type="Setting" IsForeignKey="true" DeleteRule="CASCADE" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Settings" Member="Settings">
+    <Type Name="Setting">
+      <Column Name="SettingId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="SettingName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="EditedBy" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="EdtiedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Association Name="Setting_SettingDetail" Member="SettingDetails" ThisKey="SettingId" OtherKey="SettingId" Type="SettingDetail" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Users" Member="Users">
+    <Type Name="User">
+      <Column Name="UserId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="UserName" Type="System.String" DbType="NChar(20)" CanBeNull="true" />
+      <Column Name="Password" Type="System.String" DbType="NChar(20)" CanBeNull="true" />
+      <Column Name="Active" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="[Level]" Member="Level" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="EditedBy" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="EditedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Enrollees" Member="Enrollees">
+    <Type Name="Enrollee">
+      <Column Name="EnrolleeId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="EnrolleeNo" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="EnrolleeIdNo" Type="System.String" DbType="NChar(15)" CanBeNull="true" />
+      <Column Name="LastName" Type="System.String" DbType="NChar(30)" CanBeNull="true" />
+      <Column Name="FirstName" Type="System.String" DbType="NChar(30)" CanBeNull="true" />
+      <Column Name="MiddleName" Type="System.String" DbType="NChar(30)" CanBeNull="true" />
+      <Column Name="Sex" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="Address" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="BirthDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DateHired" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DepartmentId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PositionId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SettingId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Picture" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="EditedBy" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="EditedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Association Name="Enrollee_Leave" Member="Leaves" ThisKey="EnrolleeId" OtherKey="EnrolleeId" Type="Leave" />
+      <Association Name="Enrollee_Machine" Member="Machines" ThisKey="EnrolleeId" OtherKey="EnrolleeId" Type="Machine" />
+      <Association Name="Enrollee_DTR" Member="DTRs" ThisKey="EnrolleeId" OtherKey="EnrolleeId" Type="DTR" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Holidays" Member="Holidays">
+    <Type Name="Holiday">
+      <Column Name="HolidayId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="HolidayDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="HolidayActive" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="HolidayType" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="HolidayNote" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="EditedBy" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="EditedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Leaves" Member="Leaves">
+    <Type Name="Leave">
+      <Column Name="LeaveId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="EnrolleeId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="LeaveNo" Type="System.String" DbType="NChar(15)" CanBeNull="true" />
+      <Column Name="LeaveDateFrom" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="LeaveDateTo" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="LeaveType" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="LeaveNoDays" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="LeaveReason" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="EditedBy" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="EditedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Association Name="Enrollee_Leave" Member="Enrollee" ThisKey="EnrolleeId" OtherKey="EnrolleeId" Type="Enrollee" IsForeignKey="true" DeleteRule="CASCADE" />
+    </Type>
+  </Table>
+  <Table Name="dbo.MachineInstances" Member="MachineInstances">
+    <Type Name="MachineInstance">
+      <Column Name="MachineInsId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="MachineInstanceName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="EditedBy" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="EditedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Association Name="MachineInstance_Machine" Member="Machines" ThisKey="MachineInsId" OtherKey="MachineInsId" Type="Machine" />
+      <Association Name="MachineInstance_MacDumpLog" Member="MacDumpLogs" ThisKey="MachineInsId" OtherKey="MachineInsId" Type="MacDumpLog" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Machines" Member="Machines">
+    <Type Name="Machine">
+      <Column Name="MachineId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="EnrolleeId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MachineInsId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MachineNo" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="EnrolleeNo" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IYear" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IMonth" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IDay" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IHour" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IMin" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ISecond" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="InOutCode" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="VerifyCode" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Enrollee_Machine" Member="Enrollee" ThisKey="EnrolleeId" OtherKey="EnrolleeId" Type="Enrollee" IsForeignKey="true" />
+      <Association Name="MachineInstance_Machine" Member="MachineInstance" ThisKey="MachineInsId" OtherKey="MachineInsId" Type="MachineInstance" IsForeignKey="true" DeleteRule="CASCADE" />
+    </Type>
+  </Table>
+  <Table Name="dbo.MacDumpLogs" Member="MacDumpLogs">
+    <Type Name="MacDumpLog">
+      <Column Name="MacDumpId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="EnrolleeId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MachineNo" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="EnrolleeNo" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MachineInsId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MacDumpDate" Type="System.String" DbType="NChar(12)" CanBeNull="true" />
+      <Column Name="MacDumpTime" Type="System.String" DbType="NChar(12)" CanBeNull="true" />
+      <Column Name="EditedBy" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="EditedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Association Name="MachineInstance_MacDumpLog" Member="MachineInstance" ThisKey="MachineInsId" OtherKey="MachineInsId" Type="MachineInstance" IsForeignKey="true" DeleteRule="CASCADE" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Miscellaneous" Member="Miscellaneous">
+    <Type Name="Miscellaneous">
+      <Column Name="MiscId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="MiscGraceInAM" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MiscGraceInPM" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MiscGraceInOT" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MiscRegularHours" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="MiscRegularLabel" Type="System.String" DbType="NChar(20)" CanBeNull="true" />
+      <Column Name="MiscOverRegularLabel" Type="System.String" DbType="NChar(20)" CanBeNull="true" />
+      <Column Name="MiscUnderRegularLabel" Type="System.String" DbType="NChar(20)" CanBeNull="true" />
+      <Column Name="MiscActive" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="EditedBy" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="EditedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DTRs" Member="DTRs">
+    <Type Name="DTR">
+      <Column Name="DTRId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="EnrolleeId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="EnrolleeNo" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DTRDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DTRDay" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="TimeInAM" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="TimeOutAM" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="TimeInPM" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="TimeOutPM" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="TimeInOT" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="TimeOutOT" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="TotalHours" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="TotalMinute" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="TotalHour" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="DTRStatus" Type="System.String" DbType="NChar(15)" CanBeNull="true" />
+      <Column Name="IsSource" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="EditedBy" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="EditedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Association Name="Enrollee_DTR" Member="Enrollee" ThisKey="EnrolleeId" OtherKey="EnrolleeId" Type="Enrollee" IsForeignKey="true" DeleteRule="CASCADE" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Companies" Member="Companies">
+    <Type Name="Company">
+      <Column Name="CompanyId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CompanyName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="CompanyAddress" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="CompanyContact" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="CompanyActive" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Function Name="dbo.SPLoadEnrolleeAll" Method="SPLoadEnrolleeAll">
+    <ElementType Name="SPLoadEnrolleeAllResult">
+      <Column Name="EnrolleeId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="EnrolleeNo" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="EnrolleeIdNo" Type="System.String" DbType="NChar(15)" CanBeNull="true" />
+      <Column Name="LastName" Type="System.String" DbType="NChar(30)" CanBeNull="true" />
+      <Column Name="FirstName" Type="System.String" DbType="NChar(30)" CanBeNull="true" />
+      <Column Name="MiddleName" Type="System.String" DbType="NChar(30)" CanBeNull="true" />
+      <Column Name="Sex" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="Address" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="BirthDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DateHired" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="PositionName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="DepartmentName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </ElementType>
+  </Function>
+</Database>
