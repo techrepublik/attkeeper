@@ -3,6 +3,7 @@ using System.Windows.Forms;
 using AttendanceKeeper.Classes;
 using AttendanceKeeper.Data;
 using System.Threading;
+using ObjectManager;
 
 namespace AttendanceKeeper.Management
 {
@@ -27,10 +28,11 @@ namespace AttendanceKeeper.Management
             Cursor.Current = Cursors.WaitCursor;
             this.Invoke((MethodInvoker) delegate
                                             {
+
                                                 departmentBindingSource.DataSource = ActionClass.FillDepartments();
                                                 positionsBindingSource.DataSource = ActionClass.FillPostions();
                                                 settingBindingSource.DataSource = ActionClass.FillSettings();
-
+                                               
                                                 //enrolleeBindingSource.DataSource = ActionClass.FillEnrollees();
                                             });
 

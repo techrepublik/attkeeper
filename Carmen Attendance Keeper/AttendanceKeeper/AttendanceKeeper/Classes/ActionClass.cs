@@ -2,17 +2,19 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using AttendanceKeeper.Data;
 
-namespace AttendanceKeeper.Classes
+namespace AttendanceKeeper.Classess
 {
     class ActionClass
     {
+       
         # region "1. Enrollees"
+
         public static int SaveEnrollee(Enrollee enrollee)
         {
+           
             int iResult = 0;
-            var data = new DTRDataDataContext();
+            var data = new ObjectManager.DTRDbaseEntities();
             if (enrollee != null)
             {
                 try
@@ -41,8 +43,8 @@ namespace AttendanceKeeper.Classes
 
                     if (enrollee.EnrolleeId == 0)
                     {
-                        data.Enrollees.InsertOnSubmit(e);
-                        data.SubmitChanges();
+                        data(e);
+                        data();
                         iResult = e.EnrolleeId;
                     }
                     else
@@ -1447,94 +1449,5 @@ namespace AttendanceKeeper.Classes
         }
         #endregion
 
-        #region "14. Company Information"
-        public static int SaveCompany(Company company)
-        {
-            int iResult = 0;
-            using (var data = new DTRDataDataContext())
-            {
-                if (company != null)
-                {
-                    Company c = new Company();
-                    if (company.CompanyId > 0)
-                        c = data.Companies.FirstOrDefault(co => co.CompanyId == company.CompanyId);
-
-                    c.CompanyId = company.CompanyId;
-                    c.CompanyName = company.CompanyName;
-                    c.CompanyAddress = company.CompanyAddress;
-                    c.CompanyContact = company.CompanyContact;
-                    c.CompanyActive = company.CompanyActive;
-
-                    if (company.CompanyId == 0)
-                    {
-                        data.Companies.InsertOnSubmit(c);
-                        data.SubmitChanges();
-                        iResult = c.CompanyId;
-                    }
-                    else
-                    {
-                        data.SubmitChanges();
-                        iResult = c.CompanyId;
-                    }
-                }
-            }
-            return iResult;
-        }
-
-        public static bool DeleteCompany(Company company)
-        {
-            bool bResult = false;
-            using (var data = new DTRDataDataContext())
-            {
-                if (company != null)
-                {
-                    Company c = data.Companies.FirstOrDefault(co => co.CompanyId == company.CompanyId);
-                    if (c != null)
-                    {
-                        data.Companies.DeleteOnSubmit(c);
-                        data.SubmitChanges();
-                        bResult = true;
-                    }
-                }
-            }
-            return bResult;
-        }
-
-        public static List<Company> FillCompanies()
-        {
-            var data = new DTRDataDataContext();
-            var q = from c in data.Companies
-                    orderby c.CompanyName ascending
-                    select c;
-            return q.ToList();
-        }
-
-        public static Company GetCompany(int iCompanyId)
-        {
-            Company tempCom = null;
-            var data = new DTRDataDataContext();
-            if (iCompanyId > 0)
-            {
-                Company c = data.Companies.FirstOrDefault(co => co.CompanyId == iCompanyId);
-                if (c != null)
-                {
-                    tempCom = c;    
-                }
-            }
-            return tempCom;
-        }
-
-        public static Company GetCompanyActive()
-        {
-            Company tempCom = null;
-            var data = new DTRDataDataContext();
-            Company c = data.Companies.FirstOrDefault(co => co.CompanyActive == true);
-            if (c != null)
-            {
-                tempCom = c;
-            }
-            return tempCom;
-        }
-        #endregion
     }
 }

@@ -1,0 +1,394 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DTRDbaseModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="DTRDbaseModelStoreContainer">
+    <EntitySet Name="Companies" EntityType="DTRDbaseModel.Store.Companies" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Departments" EntityType="DTRDbaseModel.Store.Departments" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="DTRs" EntityType="DTRDbaseModel.Store.DTRs" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Enrollees" EntityType="DTRDbaseModel.Store.Enrollees" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Holidays" EntityType="DTRDbaseModel.Store.Holidays" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Leaves" EntityType="DTRDbaseModel.Store.Leaves" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="MacDumpLogs" EntityType="DTRDbaseModel.Store.MacDumpLogs" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="MachineInstances" EntityType="DTRDbaseModel.Store.MachineInstances" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Machines" EntityType="DTRDbaseModel.Store.Machines" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Miscellaneous" EntityType="DTRDbaseModel.Store.Miscellaneous" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Positions" EntityType="DTRDbaseModel.Store.Positions" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="SettingDetails" EntityType="DTRDbaseModel.Store.SettingDetails" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Settings" EntityType="DTRDbaseModel.Store.Settings" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="sysdiagrams" EntityType="DTRDbaseModel.Store.sysdiagrams" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Users" EntityType="DTRDbaseModel.Store.Users" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_DTRs_Enrollees" Association="DTRDbaseModel.Store.FK_DTRs_Enrollees">
+      <End Role="Enrollees" EntitySet="Enrollees" />
+      <End Role="DTRs" EntitySet="DTRs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Leaves_Enrollees" Association="DTRDbaseModel.Store.FK_Leaves_Enrollees">
+      <End Role="Enrollees" EntitySet="Enrollees" />
+      <End Role="Leaves" EntitySet="Leaves" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MacDumpLogs_MachineInstances" Association="DTRDbaseModel.Store.FK_MacDumpLogs_MachineInstances">
+      <End Role="MachineInstances" EntitySet="MachineInstances" />
+      <End Role="MacDumpLogs" EntitySet="MacDumpLogs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Machines_Enrollees" Association="DTRDbaseModel.Store.FK_Machines_Enrollees">
+      <End Role="Enrollees" EntitySet="Enrollees" />
+      <End Role="Machines" EntitySet="Machines" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Machines_MachineInstances" Association="DTRDbaseModel.Store.FK_Machines_MachineInstances">
+      <End Role="MachineInstances" EntitySet="MachineInstances" />
+      <End Role="Machines" EntitySet="Machines" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Positions_Departments1" Association="DTRDbaseModel.Store.FK_Positions_Departments1">
+      <End Role="Departments" EntitySet="Departments" />
+      <End Role="Positions" EntitySet="Positions" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SettingDetails_Settings" Association="DTRDbaseModel.Store.FK_SettingDetails_Settings">
+      <End Role="Settings" EntitySet="Settings" />
+      <End Role="SettingDetails" EntitySet="SettingDetails" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Companies">
+    <Key>
+      <PropertyRef Name="CompanyId" />
+    </Key>
+    <Property Name="CompanyId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CompanyName" Type="varchar" MaxLength="100" />
+    <Property Name="CompanyAddress" Type="varchar" MaxLength="200" />
+    <Property Name="CompanyContact" Type="varchar" MaxLength="50" />
+    <Property Name="CompanyActive" Type="bit" />
+  </EntityType>
+  <EntityType Name="Departments">
+    <Key>
+      <PropertyRef Name="DepartmentId" />
+    </Key>
+    <Property Name="DepartmentId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="DepartmentName" Type="varchar" MaxLength="50" />
+    <Property Name="EditedBy" Type="varchar" MaxLength="50" />
+    <Property Name="EditedOn" Type="datetime" />
+  </EntityType>
+  <EntityType Name="DTRs">
+    <Key>
+      <PropertyRef Name="DTRId" />
+    </Key>
+    <Property Name="DTRId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="EnrolleeId" Type="int" />
+    <Property Name="EnrolleeNo" Type="int" />
+    <Property Name="DTRDate" Type="datetime" />
+    <Property Name="DTRDay" Type="nchar" MaxLength="10" />
+    <Property Name="TimeInAM" Type="nchar" MaxLength="10" />
+    <Property Name="TimeOutAM" Type="nchar" MaxLength="10" />
+    <Property Name="TimeInPM" Type="nchar" MaxLength="10" />
+    <Property Name="TimeOutPM" Type="nchar" MaxLength="10" />
+    <Property Name="TimeInOT" Type="nchar" MaxLength="10" />
+    <Property Name="TimeOutOT" Type="nchar" MaxLength="10" />
+    <Property Name="TotalHours" Type="float" />
+    <Property Name="TotalMinute" Type="float" />
+    <Property Name="TotalHour" Type="float" />
+    <Property Name="DTRStatus" Type="nchar" MaxLength="15" />
+    <Property Name="IsSource" Type="bit" />
+    <Property Name="EditedBy" Type="varchar" MaxLength="50" />
+    <Property Name="EditedOn" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Enrollees">
+    <Key>
+      <PropertyRef Name="EnrolleeId" />
+    </Key>
+    <Property Name="EnrolleeId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="EnrolleeNo" Type="int" />
+    <Property Name="EnrolleeIdNo" Type="nchar" MaxLength="15" />
+    <Property Name="LastName" Type="nchar" MaxLength="30" />
+    <Property Name="FirstName" Type="nchar" MaxLength="30" />
+    <Property Name="MiddleName" Type="nchar" MaxLength="30" />
+    <Property Name="Sex" Type="nchar" MaxLength="10" />
+    <Property Name="Address" Type="varchar" MaxLength="150" />
+    <Property Name="BirthDate" Type="datetime" />
+    <Property Name="DateHired" Type="datetime" />
+    <Property Name="DepartmentId" Type="int" />
+    <Property Name="PositionId" Type="int" />
+    <Property Name="SettingId" Type="int" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="Picture" Type="image" />
+    <Property Name="EditedBy" Type="varchar" MaxLength="50" />
+    <Property Name="EditedOn" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Holidays">
+    <Key>
+      <PropertyRef Name="HolidayId" />
+    </Key>
+    <Property Name="HolidayId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HolidayDate" Type="datetime" />
+    <Property Name="HolidayActive" Type="bit" />
+    <Property Name="HolidayType" Type="varchar" MaxLength="50" />
+    <Property Name="HolidayNote" Type="varchar" MaxLength="100" />
+    <Property Name="EditedBy" Type="varchar" MaxLength="50" />
+    <Property Name="EditedOn" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Leaves">
+    <Key>
+      <PropertyRef Name="LeaveId" />
+    </Key>
+    <Property Name="LeaveId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="EnrolleeId" Type="int" />
+    <Property Name="LeaveNo" Type="nchar" MaxLength="15" />
+    <Property Name="LeaveDateFrom" Type="datetime" />
+    <Property Name="LeaveDateTo" Type="datetime" />
+    <Property Name="LeaveType" Type="varchar" MaxLength="50" />
+    <Property Name="LeaveNoDays" Type="int" />
+    <Property Name="LeaveReason" Type="varchar" MaxLength="100" />
+    <Property Name="EditedBy" Type="varchar" MaxLength="50" />
+    <Property Name="EditedOn" Type="datetime" />
+  </EntityType>
+  <EntityType Name="MacDumpLogs">
+    <Key>
+      <PropertyRef Name="MacDumpId" />
+    </Key>
+    <Property Name="MacDumpId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="EnrolleeId" Type="int" />
+    <Property Name="MachineNo" Type="int" />
+    <Property Name="EnrolleeNo" Type="int" />
+    <Property Name="MachineInsId" Type="int" />
+    <Property Name="MacDumpDate" Type="nchar" MaxLength="12" />
+    <Property Name="MacDumpTime" Type="nchar" MaxLength="12" />
+    <Property Name="EditedBy" Type="varchar" MaxLength="50" />
+    <Property Name="EditedOn" Type="datetime" />
+  </EntityType>
+  <EntityType Name="MachineInstances">
+    <Key>
+      <PropertyRef Name="MachineInsId" />
+    </Key>
+    <Property Name="MachineInsId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="MachineInstanceName" Type="varchar" MaxLength="50" />
+    <Property Name="EditedBy" Type="varchar" MaxLength="50" />
+    <Property Name="EditedOn" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Machines">
+    <Key>
+      <PropertyRef Name="MachineId" />
+    </Key>
+    <Property Name="MachineId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="EnrolleeId" Type="int" />
+    <Property Name="MachineInsId" Type="int" />
+    <Property Name="MachineNo" Type="int" />
+    <Property Name="EnrolleeNo" Type="int" />
+    <Property Name="IYear" Type="int" />
+    <Property Name="IMonth" Type="int" />
+    <Property Name="IDay" Type="int" />
+    <Property Name="IHour" Type="int" />
+    <Property Name="IMin" Type="int" />
+    <Property Name="ISecond" Type="int" />
+    <Property Name="InOutCode" Type="int" />
+    <Property Name="VerifyCode" Type="int" />
+  </EntityType>
+  <EntityType Name="Miscellaneous">
+    <Key>
+      <PropertyRef Name="MiscId" />
+    </Key>
+    <Property Name="MiscId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="MiscGraceInAM" Type="int" />
+    <Property Name="MiscGraceInPM" Type="int" />
+    <Property Name="MiscGraceInOT" Type="int" />
+    <Property Name="MiscRegularHours" Type="float" />
+    <Property Name="MiscRegularLabel" Type="nchar" MaxLength="20" />
+    <Property Name="MiscOverRegularLabel" Type="nchar" MaxLength="20" />
+    <Property Name="MiscUnderRegularLabel" Type="nchar" MaxLength="20" />
+    <Property Name="MiscActive" Type="bit" />
+    <Property Name="EditedBy" Type="varchar" MaxLength="50" />
+    <Property Name="EditedOn" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Positions">
+    <Key>
+      <PropertyRef Name="PositionId" />
+    </Key>
+    <Property Name="PositionId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="PositionName" Type="varchar" MaxLength="50" />
+    <Property Name="DepartmentId" Type="int" />
+    <Property Name="EditedBy" Type="varchar" MaxLength="50" />
+    <Property Name="EditedOn" Type="datetime" />
+  </EntityType>
+  <EntityType Name="SettingDetails">
+    <Key>
+      <PropertyRef Name="SettingDetailId" />
+    </Key>
+    <Property Name="SettingDetailId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="SettingId" Type="int" />
+    <Property Name="SettingDetailDay" Type="nchar" MaxLength="10" />
+    <Property Name="SettingDetailAMIn01" Type="datetime" />
+    <Property Name="SettingDetailAMIn02" Type="datetime" />
+    <Property Name="SettingDetailAMOut01" Type="datetime" />
+    <Property Name="SettingDetailAMOut02" Type="datetime" />
+    <Property Name="SettingDetailPMIn01" Type="datetime" />
+    <Property Name="SettingDetailPMIn02" Type="datetime" />
+    <Property Name="SettingDetailPMOut01" Type="datetime" />
+    <Property Name="SettingDetailPMOut02" Type="datetime" />
+    <Property Name="SettingDetailOTIn01" Type="datetime" />
+    <Property Name="SettingDetailOTIn02" Type="datetime" />
+    <Property Name="SettingDetailOTOut01" Type="datetime" />
+    <Property Name="SettingDetailOTOut02" Type="datetime" />
+    <Property Name="SettingDetailINAM" Type="datetime" />
+    <Property Name="SettingDetailOUTAM" Type="datetime" />
+    <Property Name="SettingDetailINPM" Type="datetime" />
+    <Property Name="SettingDetailOUTPM" Type="datetime" />
+    <Property Name="SettingDetailINOT" Type="datetime" />
+    <Property Name="SettingDetailOUTOT" Type="datetime" />
+    <Property Name="SettingDetailActive" Type="bit" />
+    <Property Name="EditedBy" Type="varchar" MaxLength="50" />
+    <Property Name="EditedOn" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Settings">
+    <Key>
+      <PropertyRef Name="SettingId" />
+    </Key>
+    <Property Name="SettingId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="SettingName" Type="varchar" MaxLength="50" />
+    <Property Name="EditedBy" Type="varchar" MaxLength="50" />
+    <Property Name="EdtiedOn" Type="datetime" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" Nullable="false" MaxLength="128" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="UserName" Type="nchar" MaxLength="20" />
+    <Property Name="Password" Type="nchar" MaxLength="20" />
+    <Property Name="Active" Type="bit" />
+    <Property Name="Level" Type="nchar" MaxLength="10" />
+    <Property Name="EditedBy" Type="varchar" MaxLength="50" />
+    <Property Name="EditedOn" Type="datetime" />
+  </EntityType>
+  <Association Name="FK_DTRs_Enrollees">
+    <End Role="Enrollees" Type="DTRDbaseModel.Store.Enrollees" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="DTRs" Type="DTRDbaseModel.Store.DTRs" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Enrollees">
+        <PropertyRef Name="EnrolleeId" />
+      </Principal>
+      <Dependent Role="DTRs">
+        <PropertyRef Name="EnrolleeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Leaves_Enrollees">
+    <End Role="Enrollees" Type="DTRDbaseModel.Store.Enrollees" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Leaves" Type="DTRDbaseModel.Store.Leaves" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Enrollees">
+        <PropertyRef Name="EnrolleeId" />
+      </Principal>
+      <Dependent Role="Leaves">
+        <PropertyRef Name="EnrolleeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MacDumpLogs_MachineInstances">
+    <End Role="MachineInstances" Type="DTRDbaseModel.Store.MachineInstances" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="MacDumpLogs" Type="DTRDbaseModel.Store.MacDumpLogs" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MachineInstances">
+        <PropertyRef Name="MachineInsId" />
+      </Principal>
+      <Dependent Role="MacDumpLogs">
+        <PropertyRef Name="MachineInsId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Machines_Enrollees">
+    <End Role="Enrollees" Type="DTRDbaseModel.Store.Enrollees" Multiplicity="0..1" />
+    <End Role="Machines" Type="DTRDbaseModel.Store.Machines" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Enrollees">
+        <PropertyRef Name="EnrolleeId" />
+      </Principal>
+      <Dependent Role="Machines">
+        <PropertyRef Name="EnrolleeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Machines_MachineInstances">
+    <End Role="MachineInstances" Type="DTRDbaseModel.Store.MachineInstances" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Machines" Type="DTRDbaseModel.Store.Machines" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MachineInstances">
+        <PropertyRef Name="MachineInsId" />
+      </Principal>
+      <Dependent Role="Machines">
+        <PropertyRef Name="MachineInsId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Positions_Departments1">
+    <End Role="Departments" Type="DTRDbaseModel.Store.Departments" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Positions" Type="DTRDbaseModel.Store.Positions" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Departments">
+        <PropertyRef Name="DepartmentId" />
+      </Principal>
+      <Dependent Role="Positions">
+        <PropertyRef Name="DepartmentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SettingDetails_Settings">
+    <End Role="Settings" Type="DTRDbaseModel.Store.Settings" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="SettingDetails" Type="DTRDbaseModel.Store.SettingDetails" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Settings">
+        <PropertyRef Name="SettingId" />
+      </Principal>
+      <Dependent Role="SettingDetails">
+        <PropertyRef Name="SettingId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="fn_diagramobjects" ReturnType="int" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_alterdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_creatediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_dropdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagramdefinition" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_renamediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="new_diagramname" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="sp_upgraddiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="SPLoadEnrolleeAll" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+</Schema>

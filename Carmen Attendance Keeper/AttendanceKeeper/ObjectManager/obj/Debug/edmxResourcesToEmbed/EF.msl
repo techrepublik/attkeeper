@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DTRDbaseModelStoreContainer" CdmEntityContainer="DTRDbaseEntities">
+    <EntitySetMapping Name="Companies">
+      <EntityTypeMapping TypeName="DTRDbaseModel.Company">
+        <MappingFragment StoreEntitySet="Companies">
+          <ScalarProperty Name="CompanyId" ColumnName="CompanyId" />
+          <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+          <ScalarProperty Name="CompanyAddress" ColumnName="CompanyAddress" />
+          <ScalarProperty Name="CompanyContact" ColumnName="CompanyContact" />
+          <ScalarProperty Name="CompanyActive" ColumnName="CompanyActive" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Departments">
+      <EntityTypeMapping TypeName="DTRDbaseModel.Department">
+        <MappingFragment StoreEntitySet="Departments">
+          <ScalarProperty Name="DepartmentId" ColumnName="DepartmentId" />
+          <ScalarProperty Name="DepartmentName" ColumnName="DepartmentName" />
+          <ScalarProperty Name="EditedBy" ColumnName="EditedBy" />
+          <ScalarProperty Name="EditedOn" ColumnName="EditedOn" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DTRs">
+      <EntityTypeMapping TypeName="DTRDbaseModel.DTR">
+        <MappingFragment StoreEntitySet="DTRs">
+          <ScalarProperty Name="DTRId" ColumnName="DTRId" />
+          <ScalarProperty Name="EnrolleeId" ColumnName="EnrolleeId" />
+          <ScalarProperty Name="EnrolleeNo" ColumnName="EnrolleeNo" />
+          <ScalarProperty Name="DTRDate" ColumnName="DTRDate" />
+          <ScalarProperty Name="DTRDay" ColumnName="DTRDay" />
+          <ScalarProperty Name="TimeInAM" ColumnName="TimeInAM" />
+          <ScalarProperty Name="TimeOutAM" ColumnName="TimeOutAM" />
+          <ScalarProperty Name="TimeInPM" ColumnName="TimeInPM" />
+          <ScalarProperty Name="TimeOutPM" ColumnName="TimeOutPM" />
+          <ScalarProperty Name="TimeInOT" ColumnName="TimeInOT" />
+          <ScalarProperty Name="TimeOutOT" ColumnName="TimeOutOT" />
+          <ScalarProperty Name="TotalHours" ColumnName="TotalHours" />
+          <ScalarProperty Name="TotalMinute" ColumnName="TotalMinute" />
+          <ScalarProperty Name="TotalHour" ColumnName="TotalHour" />
+          <ScalarProperty Name="DTRStatus" ColumnName="DTRStatus" />
+          <ScalarProperty Name="IsSource" ColumnName="IsSource" />
+          <ScalarProperty Name="EditedBy" ColumnName="EditedBy" />
+          <ScalarProperty Name="EditedOn" ColumnName="EditedOn" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Enrollees">
+      <EntityTypeMapping TypeName="DTRDbaseModel.Enrollee">
+        <MappingFragment StoreEntitySet="Enrollees">
+          <ScalarProperty Name="EnrolleeId" ColumnName="EnrolleeId" />
+          <ScalarProperty Name="EnrolleeNo" ColumnName="EnrolleeNo" />
+          <ScalarProperty Name="EnrolleeIdNo" ColumnName="EnrolleeIdNo" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="MiddleName" ColumnName="MiddleName" />
+          <ScalarProperty Name="Sex" ColumnName="Sex" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="BirthDate" ColumnName="BirthDate" />
+          <ScalarProperty Name="DateHired" ColumnName="DateHired" />
+          <ScalarProperty Name="DepartmentId" ColumnName="DepartmentId" />
+          <ScalarProperty Name="PositionId" ColumnName="PositionId" />
+          <ScalarProperty Name="SettingId" ColumnName="SettingId" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="Picture" ColumnName="Picture" />
+          <ScalarProperty Name="EditedBy" ColumnName="EditedBy" />
+          <ScalarProperty Name="EditedOn" ColumnName="EditedOn" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Holidays">
+      <EntityTypeMapping TypeName="DTRDbaseModel.Holiday">
+        <MappingFragment StoreEntitySet="Holidays">
+          <ScalarProperty Name="HolidayId" ColumnName="HolidayId" />
+          <ScalarProperty Name="HolidayDate" ColumnName="HolidayDate" />
+          <ScalarProperty Name="HolidayActive" ColumnName="HolidayActive" />
+          <ScalarProperty Name="HolidayType" ColumnName="HolidayType" />
+          <ScalarProperty Name="HolidayNote" ColumnName="HolidayNote" />
+          <ScalarProperty Name="EditedBy" ColumnName="EditedBy" />
+          <ScalarProperty Name="EditedOn" ColumnName="EditedOn" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Leaves">
+      <EntityTypeMapping TypeName="DTRDbaseModel.Leaf">
+        <MappingFragment StoreEntitySet="Leaves">
+          <ScalarProperty Name="LeaveId" ColumnName="LeaveId" />
+          <ScalarProperty Name="EnrolleeId" ColumnName="EnrolleeId" />
+          <ScalarProperty Name="LeaveNo" ColumnName="LeaveNo" />
+          <ScalarProperty Name="LeaveDateFrom" ColumnName="LeaveDateFrom" />
+          <ScalarProperty Name="LeaveDateTo" ColumnName="LeaveDateTo" />
+          <ScalarProperty Name="LeaveType" ColumnName="LeaveType" />
+          <ScalarProperty Name="LeaveNoDays" ColumnName="LeaveNoDays" />
+          <ScalarProperty Name="LeaveReason" ColumnName="LeaveReason" />
+          <ScalarProperty Name="EditedBy" ColumnName="EditedBy" />
+          <ScalarProperty Name="EditedOn" ColumnName="EditedOn" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MacDumpLogs">
+      <EntityTypeMapping TypeName="DTRDbaseModel.MacDumpLog">
+        <MappingFragment StoreEntitySet="MacDumpLogs">
+          <ScalarProperty Name="MacDumpId" ColumnName="MacDumpId" />
+          <ScalarProperty Name="EnrolleeId" ColumnName="EnrolleeId" />
+          <ScalarProperty Name="MachineNo" ColumnName="MachineNo" />
+          <ScalarProperty Name="EnrolleeNo" ColumnName="EnrolleeNo" />
+          <ScalarProperty Name="MachineInsId" ColumnName="MachineInsId" />
+          <ScalarProperty Name="MacDumpDate" ColumnName="MacDumpDate" />
+          <ScalarProperty Name="MacDumpTime" ColumnName="MacDumpTime" />
+          <ScalarProperty Name="EditedBy" ColumnName="EditedBy" />
+          <ScalarProperty Name="EditedOn" ColumnName="EditedOn" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MachineInstances">
+      <EntityTypeMapping TypeName="DTRDbaseModel.MachineInstance">
+        <MappingFragment StoreEntitySet="MachineInstances">
+          <ScalarProperty Name="MachineInsId" ColumnName="MachineInsId" />
+          <ScalarProperty Name="MachineInstanceName" ColumnName="MachineInstanceName" />
+          <ScalarProperty Name="EditedBy" ColumnName="EditedBy" />
+          <ScalarProperty Name="EditedOn" ColumnName="EditedOn" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Machines">
+      <EntityTypeMapping TypeName="DTRDbaseModel.Machine">
+        <MappingFragment StoreEntitySet="Machines">
+          <ScalarProperty Name="MachineId" ColumnName="MachineId" />
+          <ScalarProperty Name="EnrolleeId" ColumnName="EnrolleeId" />
+          <ScalarProperty Name="MachineInsId" ColumnName="MachineInsId" />
+          <ScalarProperty Name="MachineNo" ColumnName="MachineNo" />
+          <ScalarProperty Name="EnrolleeNo" ColumnName="EnrolleeNo" />
+          <ScalarProperty Name="IYear" ColumnName="IYear" />
+          <ScalarProperty Name="IMonth" ColumnName="IMonth" />
+          <ScalarProperty Name="IDay" ColumnName="IDay" />
+          <ScalarProperty Name="IHour" ColumnName="IHour" />
+          <ScalarProperty Name="IMin" ColumnName="IMin" />
+          <ScalarProperty Name="ISecond" ColumnName="ISecond" />
+          <ScalarProperty Name="InOutCode" ColumnName="InOutCode" />
+          <ScalarProperty Name="VerifyCode" ColumnName="VerifyCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Miscellaneous">
+      <EntityTypeMapping TypeName="DTRDbaseModel.Miscellaneou">
+        <MappingFragment StoreEntitySet="Miscellaneous">
+          <ScalarProperty Name="MiscId" ColumnName="MiscId" />
+          <ScalarProperty Name="MiscGraceInAM" ColumnName="MiscGraceInAM" />
+          <ScalarProperty Name="MiscGraceInPM" ColumnName="MiscGraceInPM" />
+          <ScalarProperty Name="MiscGraceInOT" ColumnName="MiscGraceInOT" />
+          <ScalarProperty Name="MiscRegularHours" ColumnName="MiscRegularHours" />
+          <ScalarProperty Name="MiscRegularLabel" ColumnName="MiscRegularLabel" />
+          <ScalarProperty Name="MiscOverRegularLabel" ColumnName="MiscOverRegularLabel" />
+          <ScalarProperty Name="MiscUnderRegularLabel" ColumnName="MiscUnderRegularLabel" />
+          <ScalarProperty Name="MiscActive" ColumnName="MiscActive" />
+          <ScalarProperty Name="EditedBy" ColumnName="EditedBy" />
+          <ScalarProperty Name="EditedOn" ColumnName="EditedOn" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Positions">
+      <EntityTypeMapping TypeName="DTRDbaseModel.Position">
+        <MappingFragment StoreEntitySet="Positions">
+          <ScalarProperty Name="PositionId" ColumnName="PositionId" />
+          <ScalarProperty Name="PositionName" ColumnName="PositionName" />
+          <ScalarProperty Name="DepartmentId" ColumnName="DepartmentId" />
+          <ScalarProperty Name="EditedBy" ColumnName="EditedBy" />
+          <ScalarProperty Name="EditedOn" ColumnName="EditedOn" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SettingDetails">
+      <EntityTypeMapping TypeName="DTRDbaseModel.SettingDetail">
+        <MappingFragment StoreEntitySet="SettingDetails">
+          <ScalarProperty Name="SettingDetailId" ColumnName="SettingDetailId" />
+          <ScalarProperty Name="SettingId" ColumnName="SettingId" />
+          <ScalarProperty Name="SettingDetailDay" ColumnName="SettingDetailDay" />
+          <ScalarProperty Name="SettingDetailAMIn01" ColumnName="SettingDetailAMIn01" />
+          <ScalarProperty Name="SettingDetailAMIn02" ColumnName="SettingDetailAMIn02" />
+          <ScalarProperty Name="SettingDetailAMOut01" ColumnName="SettingDetailAMOut01" />
+          <ScalarProperty Name="SettingDetailAMOut02" ColumnName="SettingDetailAMOut02" />
+          <ScalarProperty Name="SettingDetailPMIn01" ColumnName="SettingDetailPMIn01" />
+          <ScalarProperty Name="SettingDetailPMIn02" ColumnName="SettingDetailPMIn02" />
+          <ScalarProperty Name="SettingDetailPMOut01" ColumnName="SettingDetailPMOut01" />
+          <ScalarProperty Name="SettingDetailPMOut02" ColumnName="SettingDetailPMOut02" />
+          <ScalarProperty Name="SettingDetailOTIn01" ColumnName="SettingDetailOTIn01" />
+          <ScalarProperty Name="SettingDetailOTIn02" ColumnName="SettingDetailOTIn02" />
+          <ScalarProperty Name="SettingDetailOTOut01" ColumnName="SettingDetailOTOut01" />
+          <ScalarProperty Name="SettingDetailOTOut02" ColumnName="SettingDetailOTOut02" />
+          <ScalarProperty Name="SettingDetailINAM" ColumnName="SettingDetailINAM" />
+          <ScalarProperty Name="SettingDetailOUTAM" ColumnName="SettingDetailOUTAM" />
+          <ScalarProperty Name="SettingDetailINPM" ColumnName="SettingDetailINPM" />
+          <ScalarProperty Name="SettingDetailOUTPM" ColumnName="SettingDetailOUTPM" />
+          <ScalarProperty Name="SettingDetailINOT" ColumnName="SettingDetailINOT" />
+          <ScalarProperty Name="SettingDetailOUTOT" ColumnName="SettingDetailOUTOT" />
+          <ScalarProperty Name="SettingDetailActive" ColumnName="SettingDetailActive" />
+          <ScalarProperty Name="EditedBy" ColumnName="EditedBy" />
+          <ScalarProperty Name="EditedOn" ColumnName="EditedOn" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Settings">
+      <EntityTypeMapping TypeName="DTRDbaseModel.Setting">
+        <MappingFragment StoreEntitySet="Settings">
+          <ScalarProperty Name="SettingId" ColumnName="SettingId" />
+          <ScalarProperty Name="SettingName" ColumnName="SettingName" />
+          <ScalarProperty Name="EditedBy" ColumnName="EditedBy" />
+          <ScalarProperty Name="EdtiedOn" ColumnName="EdtiedOn" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="DTRDbaseModel.sysdiagram">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="DTRDbaseModel.User">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="Level" ColumnName="Level" />
+          <ScalarProperty Name="EditedBy" ColumnName="EditedBy" />
+          <ScalarProperty Name="EditedOn" ColumnName="EditedOn" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="sp_alterdiagram" FunctionName="DTRDbaseModel.Store.sp_alterdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_creatediagram" FunctionName="DTRDbaseModel.Store.sp_creatediagram" />
+    <FunctionImportMapping FunctionImportName="sp_dropdiagram" FunctionName="DTRDbaseModel.Store.sp_dropdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_helpdiagramdefinition" FunctionName="DTRDbaseModel.Store.sp_helpdiagramdefinition" />
+    <FunctionImportMapping FunctionImportName="sp_helpdiagrams" FunctionName="DTRDbaseModel.Store.sp_helpdiagrams" />
+    <FunctionImportMapping FunctionImportName="sp_renamediagram" FunctionName="DTRDbaseModel.Store.sp_renamediagram" />
+    <FunctionImportMapping FunctionImportName="sp_upgraddiagrams" FunctionName="DTRDbaseModel.Store.sp_upgraddiagrams" />
+    <FunctionImportMapping FunctionImportName="SPLoadEnrolleeAll" FunctionName="DTRDbaseModel.Store.SPLoadEnrolleeAll">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="DTRDbaseModel.SPLoadEnrolleeAll_Result">
+          <ScalarProperty Name="EnrolleeId" ColumnName="EnrolleeId" />
+          <ScalarProperty Name="EnrolleeNo" ColumnName="EnrolleeNo" />
+          <ScalarProperty Name="EnrolleeIdNo" ColumnName="EnrolleeIdNo" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="MiddleName" ColumnName="MiddleName" />
+          <ScalarProperty Name="Sex" ColumnName="Sex" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="BirthDate" ColumnName="BirthDate" />
+          <ScalarProperty Name="DateHired" ColumnName="DateHired" />
+          <ScalarProperty Name="PositionName" ColumnName="PositionName" />
+          <ScalarProperty Name="DepartmentName" ColumnName="DepartmentName" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>
