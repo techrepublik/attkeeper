@@ -8,6 +8,7 @@ using System.Text;
 using System.Windows.Forms;
 using AttendanceKeeper.Classes;
 using Microsoft.Reporting.WinForms;
+using ObjectManager;
 
 namespace AttendanceKeeper.Management
 {

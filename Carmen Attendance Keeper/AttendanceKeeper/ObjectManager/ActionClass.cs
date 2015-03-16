@@ -41,7 +41,7 @@ namespace ObjectManager
 
                     if (enrollee.EnrolleeId == 0)
                     {
-                        data.Enrollees.Add(e);
+                        data.Enrollees.AddObject(e);
                         data.SaveChanges();
                         iResult = e.EnrolleeId;
                     }
@@ -71,7 +71,7 @@ namespace ObjectManager
                 {
                     foreach (var q in listEnrollee)
                     {
-                        data.Enrollees.Add(q);
+                        data.Enrollees.AddObject(q);
                         data.SaveChanges();
                         iResult = 1;
                     }
@@ -93,7 +93,7 @@ namespace ObjectManager
                         var e = data.Enrollees.FirstOrDefault(en => en.EnrolleeId == enrollee.EnrolleeId);
                         if (e != null)
                         {
-                            data.Enrollees.Remove(enrollee);
+                            data.Enrollees.DeleteObject(enrollee);
                             data.SaveChanges();
                             bResult = true;
                         }
@@ -210,7 +210,7 @@ namespace ObjectManager
 
                         if (department.DepartmentId == 0)
                         {
-                            data.Departments.Add(d);
+                            data.Departments.AddObject(d);
                             data.SaveChanges();
                             iResult = d.DepartmentId;
                         }
@@ -240,7 +240,7 @@ namespace ObjectManager
                     Department d = data.Departments.FirstOrDefault(de => de.DepartmentId == department.DepartmentId);
                     if (d != null)
                     {
-                        data.Departments.Remove(department);
+                        data.Departments.DeleteObject(department);
                         data.SaveChanges();
                         bResult = true;
                     }
@@ -303,7 +303,7 @@ namespace ObjectManager
 
                         if (position.PositionId == 0)
                         {
-                            data.Positions.Add(position);
+                            data.Positions.AddObject(position);
                             data.SaveChanges();
                             iResult = p.PositionId;
                         }
@@ -333,7 +333,7 @@ namespace ObjectManager
                     Position p = data.Positions.FirstOrDefault(po => po.PositionId == position.PositionId);
                     if (p != null)
                     {
-                        data.Positions.Remove(position);
+                        data.Positions.DeleteObject(position);
                         data.SaveChanges();
                         bResult = true;
                     }

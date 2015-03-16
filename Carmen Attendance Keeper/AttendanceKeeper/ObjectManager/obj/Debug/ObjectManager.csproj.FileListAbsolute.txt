@@ -8,3 +8,13 @@ C:\Users\eugene\Documents\GitHub\attkeeper\Carmen Attendance Keeper\AttendanceKe
 C:\Users\eugene\Documents\GitHub\attkeeper\Carmen Attendance Keeper\AttendanceKeeper\ObjectManager\obj\Debug\ObjectManager.dll
 C:\Users\eugene\Documents\GitHub\attkeeper\Carmen Attendance Keeper\AttendanceKeeper\ObjectManager\obj\Debug\ObjectManager.pdb
 C:\Users\eugene\Documents\GitHub\attkeeper\Carmen Attendance Keeper\AttendanceKeeper\ObjectManager\obj\Debug\ObjectManager.csprojResolveAssemblyReference.cache
+E:\github\attkeeper\Carmen Attendance Keeper\AttendanceKeeper\ObjectManager\obj\Debug\ObjectManager.csprojResolveAssemblyReference.cache
+E:\github\attkeeper\Carmen Attendance Keeper\AttendanceKeeper\ObjectManager\obj\Debug\ObjectManager.dll
+E:\github\attkeeper\Carmen Attendance Keeper\AttendanceKeeper\ObjectManager\bin\Debug\DTRDbase.mdf
+E:\github\attkeeper\Carmen Attendance Keeper\AttendanceKeeper\ObjectManager\bin\Debug\DTRDbase_log.ldf
+E:\github\attkeeper\Carmen Attendance Keeper\AttendanceKeeper\ObjectManager\bin\Debug\ObjectManager.dll.config
+E:\github\attkeeper\Carmen Attendance Keeper\AttendanceKeeper\ObjectManager\bin\Debug\ObjectManager.dll
+E:\github\attkeeper\Carmen Attendance Keeper\AttendanceKeeper\ObjectManager\bin\Debug\ObjectManager.pdb
+E:\github\attkeeper\Carmen Attendance Keeper\AttendanceKeeper\ObjectManager\bin\Debug\EntityFramework.dll
+E:\github\attkeeper\Carmen Attendance Keeper\AttendanceKeeper\ObjectManager\bin\Debug\EntityFramework.xml
+E:\github\attkeeper\Carmen Attendance Keeper\AttendanceKeeper\ObjectManager\obj\Debug\ObjectManager.pdb

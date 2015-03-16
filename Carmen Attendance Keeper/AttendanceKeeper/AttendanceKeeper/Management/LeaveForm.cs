@@ -3,6 +3,8 @@ using System.Threading;
 using System.Windows.Forms;
 using AttendanceKeeper.Data;
 using AttendanceKeeper.Classes;
+using ObjectManager;
+using Enrollee = AttendanceKeeper.Data.Enrollee;
 
 namespace AttendanceKeeper.Management
 {
@@ -42,7 +44,7 @@ namespace AttendanceKeeper.Management
                     ((Data.Leave) leaveBindingSource.Current).EditedOn = DateTime.Now;
                     leaveBindingSource.EndEdit();
                     ((Leave) leaveBindingSource.Current).EnrolleeId = OEnrollee.EnrolleeId;
-                    int iResult = ActionClass.SaveLeave((Data.Leave) leaveBindingSource.Current);
+                    int iResult = ActionClass.SaveLeave((ObjectManager.Leaf) leaveBindingSource.Current);
                     if (iResult > 0)
                     {
                         Console.WriteLine(iResult.ToString());

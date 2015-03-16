@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Windows.Forms;
-using AttendanceKeeper.Data;
 using AttendanceKeeper.Classes;
+using ObjectManager;
+using DTR = AttendanceKeeper.Data.DTR;
+using MacDumpLog = AttendanceKeeper.Data.MacDumpLog;
 
 namespace AttendanceKeeper.Management
 {

@@ -6,10 +6,12 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-using AttendanceKeeper.Data;
 using AttendanceKeeper.Classes;
 using System.Threading;
 using System.Configuration;
+using ObjectManager;
+using Company = AttendanceKeeper.Data.Company;
+using User = AttendanceKeeper.Data.User;
 
 namespace AttendanceKeeper
 {
@@ -43,7 +45,7 @@ namespace AttendanceKeeper
                     User u = DataManagementClass.GetUserViaUserNamePass(sUserName, sPassword);
                     if ((u != null) && (u.Active == true))
                     {
-                        Company company = ActionClass.GetCompanyActive();
+                        ObjectManager.Company company = ActionClass.GetCompanyActive();
                         labelCompany.Text = company.CompanyName.ToUpper();
                         Application.DoEvents();
                         Thread.Sleep(2000);

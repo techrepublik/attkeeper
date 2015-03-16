@@ -33,3 +33,6 @@ D:\projects\att\JBiometric\JBiometric\obj\Debug\Interop.zkemkeeper.dll
 D:\projects\att\JBiometric\JBiometric\obj\Debug\JBiometric.csproj.ResolveComReference.cache
 D:\projects\att\JBiometric\JBiometric\obj\Debug\JBiometric.dll
 D:\projects\att\JBiometric\JBiometric\obj\Debug\JBiometric.pdb
+E:\github\attkeeper\JBiometric\JBiometric\obj\Debug\JBiometric.csproj.ResolveComReference.cache
+E:\github\attkeeper\JBiometric\JBiometric\obj\Debug\JBiometric.dll
+E:\github\attkeeper\JBiometric\JBiometric\obj\Debug\JBiometric.pdb

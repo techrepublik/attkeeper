@@ -5,6 +5,11 @@ using AttendanceKeeper.Classes;
 using AttendanceKeeper.Data;
 using System.Threading;
 using JBiometric.Manage;
+using ObjectManager;
+using Company = AttendanceKeeper.Data.Company;
+using Department = AttendanceKeeper.Data.Department;
+using Holiday = AttendanceKeeper.Data.Holiday;
+using Position = AttendanceKeeper.Data.Position;
 
 namespace AttendanceKeeper.Management
 {

@@ -3,7 +3,10 @@ using System.Windows.Forms;
 using AttendanceKeeper.Management;
 using AttendanceKeeper.Data;
 using System.Threading;
+using ObjectManager;
+using Company = ObjectManager.Company;
 using Timer = System.Windows.Forms.Timer;
+using User = ObjectManager.User;
 
 namespace AttendanceKeeper
 {

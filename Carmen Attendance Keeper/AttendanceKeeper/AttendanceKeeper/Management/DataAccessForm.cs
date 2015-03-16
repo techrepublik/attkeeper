@@ -7,7 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using AttendanceKeeper.Classes;
-using AttendanceKeeper.Data;
+using ObjectManager;
+using MachineInstance = AttendanceKeeper.Data.MachineInstance;
 
 namespace AttendanceKeeper.Management
 {

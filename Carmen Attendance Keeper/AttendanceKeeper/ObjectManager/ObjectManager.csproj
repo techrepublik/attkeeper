@@ -64,80 +64,32 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ActionClass.cs" />
-    <Compile Include="Company.cs">
-      <DependentUpon>EF.tt</DependentUpon>
-    </Compile>
     <Compile Include="DataManagementClass.cs" />
     <Compile Include="DateTimeClass.cs" />
-    <Compile Include="Department.cs">
-      <DependentUpon>EF.tt</DependentUpon>
-    </Compile>
-    <Compile Include="DTR.cs">
-      <DependentUpon>EF.tt</DependentUpon>
-    </Compile>
-    <Compile Include="EF.Context.cs">
+    <Compile Include="DTRModel.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>EF.Context.tt</DependentUpon>
+      <DependentUpon>DTRModel.Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="EF.cs">
+    <Compile Include="DTRModel.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>EF.tt</DependentUpon>
+      <DependentUpon>DTRModel.tt</DependentUpon>
     </Compile>
-    <Compile Include="EF.Designer.cs">
+    <Compile Include="DTRModel.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>EF.edmx</DependentUpon>
-    </Compile>
-    <Compile Include="Enrollee.cs">
-      <DependentUpon>EF.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Holiday.cs">
-      <DependentUpon>EF.tt</DependentUpon>
+      <DependentUpon>DTRModel.edmx</DependentUpon>
     </Compile>
     <Compile Include="JDTR.cs" />
     <Compile Include="JDTRClass.cs" />
     <Compile Include="JEnrollee.cs" />
     <Compile Include="JLeaveClass.cs" />
     <Compile Include="JSortingListClass.cs" />
-    <Compile Include="Leaf.cs">
-      <DependentUpon>EF.tt</DependentUpon>
-    </Compile>
     <Compile Include="LeaveOB.cs" />
-    <Compile Include="MacDumpLog.cs">
-      <DependentUpon>EF.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Machine.cs">
-      <DependentUpon>EF.tt</DependentUpon>
-    </Compile>
-    <Compile Include="MachineInstance.cs">
-      <DependentUpon>EF.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Miscellaneou.cs">
-      <DependentUpon>EF.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Position.cs">
-      <DependentUpon>EF.tt</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="PropertyComparer.cs" />
-    <Compile Include="Setting.cs">
-      <DependentUpon>EF.tt</DependentUpon>
-    </Compile>
     <Compile Include="SettingClass.cs" />
-    <Compile Include="SettingDetail.cs">
-      <DependentUpon>EF.tt</DependentUpon>
-    </Compile>
-    <Compile Include="SPLoadEnrolleeAll_Result.cs">
-      <DependentUpon>EF.tt</DependentUpon>
-    </Compile>
-    <Compile Include="sysdiagram.cs">
-      <DependentUpon>EF.tt</DependentUpon>
-    </Compile>
-    <Compile Include="User.cs">
-      <DependentUpon>EF.tt</DependentUpon>
-    </Compile>
     <Compile Include="XmlManipulatorClass.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -150,25 +102,23 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <EntityDeploy Include="EF.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>EF.Designer.cs</LastGenOutput>
-    </EntityDeploy>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="App.Config" />
-    <None Include="EF.Context.tt">
+    <EntityDeploy Include="DTRModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>DTRModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="DTRModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>EF.edmx</DependentUpon>
-      <LastGenOutput>EF.Context.cs</LastGenOutput>
+      <DependentUpon>DTRModel.edmx</DependentUpon>
+      <LastGenOutput>DTRModel.Context.cs</LastGenOutput>
     </None>
-    <None Include="EF.edmx.diagram">
-      <DependentUpon>EF.edmx</DependentUpon>
+    <None Include="DTRModel.edmx.diagram">
+      <DependentUpon>DTRModel.edmx</DependentUpon>
     </None>
-    <None Include="EF.tt">
+    <None Include="DTRModel.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>EF.edmx</DependentUpon>
-      <LastGenOutput>EF.cs</LastGenOutput>
+      <DependentUpon>DTRModel.edmx</DependentUpon>
+      <LastGenOutput>DTRModel.cs</LastGenOutput>
     </None>
     <None Include="packages.config" />
   </ItemGroup>
@@ -191,6 +141,12 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\JBiometric\JBiometric\JBiometric.csproj">
+      <Project>{2EDF92AB-3492-41B0-8AEA-DD34FD096CB4}</Project>
+      <Name>JBiometric</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -6,8 +6,10 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-using AttendanceKeeper.Data;
 using AttendanceKeeper.Classes;
+using ObjectManager;
+using Enrollee = AttendanceKeeper.Data.Enrollee;
+using MacDumpLog = AttendanceKeeper.Data.MacDumpLog;
 
 namespace AttendanceKeeper.Management
 {
@@ -41,12 +43,12 @@ namespace AttendanceKeeper.Management
             if (macDumpLogBindingSource != null)
             {
                 List<MacDumpLog> lMacs1 = DTRImportForm.LoadDumpLogs();
-                List<MacDumpLog> lMacs2 = ActionClass.FillMacDumpLogEnrollee(OENrollee.EnrolleeId);
+                List<ObjectManager.MacDumpLog> lMacs2 = ActionClass.FillMacDumpLogEnrollee(OENrollee.EnrolleeId);
                 List<MacDumpLog> lMacs3 = new List<MacDumpLog>();
                 
                 foreach (var log in lMacs1)
                 {
-                    MacDumpLog m =
+                    ObjectManager.MacDumpLog m =
                         lMacs2.FirstOrDefault(
                             ma => ((ma.MacDumpDate.Trim() == log.MacDumpDate.Trim()) && (ma.MacDumpTime.Trim() == log.MacDumpTime.Trim())));
 
