@@ -10,8 +10,6 @@ using AttendanceKeeper.Classes;
 using System.Threading;
 using System.Configuration;
 using ObjectManager;
-using Company = AttendanceKeeper.Data.Company;
-using User = AttendanceKeeper.Data.User;
 
 namespace AttendanceKeeper
 {

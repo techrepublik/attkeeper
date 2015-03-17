@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
 using AttendanceKeeper.Classes;
-using AttendanceKeeper.Data;
 using Microsoft.Reporting.WinForms;
 using System.Threading;
 using System.Drawing;
+using ObjectManager;
 
 namespace AttendanceKeeper.Management
 {

@@ -8,8 +8,6 @@ using System.Text;
 using System.Windows.Forms;
 using AttendanceKeeper.Classes;
 using ObjectManager;
-using Setting = AttendanceKeeper.Data.Setting;
-using SettingDetail = AttendanceKeeper.Data.SettingDetail;
 
 namespace AttendanceKeeper.Management
 {

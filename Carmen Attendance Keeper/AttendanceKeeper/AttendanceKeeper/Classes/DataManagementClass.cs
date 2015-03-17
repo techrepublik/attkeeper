@@ -2,8 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
-using AttendanceKeeper.Data;
-using Enrollee=AttendanceKeeper.Data.Enrollee;
+using Enrollee=ObjectManager.Enrollee;
 
 namespace AttendanceKeeper.Classes
 {

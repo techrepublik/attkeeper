@@ -7,7 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using AttendanceKeeper.Classes;
-using AttendanceKeeper.Data;
+using ObjectManager;
+using JDTR = AttendanceKeeper.Classes.JDTR;
 
 namespace AttendanceKeeper.Management
 {
@@ -189,7 +190,7 @@ namespace AttendanceKeeper.Management
             }
         }
 
-        private void LoadDRTEnrollee(JEnrollee en, Miscellaneous misc)
+        private void LoadDRTEnrollee(JEnrollee en, Miscellaneou misc)
         {
             Cursor = Cursors.WaitCursor;
             if (listBox1.Items.Count > 0)

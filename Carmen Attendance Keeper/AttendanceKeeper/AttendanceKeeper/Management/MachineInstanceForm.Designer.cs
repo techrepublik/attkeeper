@@ -1,4 +1,6 @@
-﻿namespace AttendanceKeeper.Management
+﻿using ObjectManager;
+
+namespace AttendanceKeeper.Management
 {
     partial class MachineInstanceForm
     {
@@ -64,7 +66,7 @@
             // 
             // machineInstanceBindingSource
             // 
-            this.machineInstanceBindingSource.DataSource = typeof(AttendanceKeeper.Data.MachineInstance);
+            this.machineInstanceBindingSource.DataSource = typeof(MachineInstance);
             // 
             // machineInstanceNameTextBox
             // 

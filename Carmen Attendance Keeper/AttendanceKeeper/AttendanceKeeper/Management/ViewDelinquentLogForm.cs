@@ -8,8 +8,6 @@ using System.Text;
 using System.Windows.Forms;
 using AttendanceKeeper.Classes;
 using ObjectManager;
-using Enrollee = AttendanceKeeper.Data.Enrollee;
-using MacDumpLog = AttendanceKeeper.Data.MacDumpLog;
 
 namespace AttendanceKeeper.Management
 {

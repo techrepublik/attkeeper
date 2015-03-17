@@ -7,7 +7,7 @@ using JBiometric.Entities;
 
 namespace ObjectManager
 {
-    class JEnrollee:Enrollee
+    public class JEnrollee:Enrollee
     {
     
         public new int EnrolleeId { get; set; }

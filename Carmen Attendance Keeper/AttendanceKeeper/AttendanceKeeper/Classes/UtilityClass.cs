@@ -6,10 +6,10 @@ using System.IO;
 using System.Text.RegularExpressions;
 using System.Threading;
 using System.Windows.Forms;
-using AttendanceKeeper.Data;
 using Microsoft.Office.Interop;
 using JBiometric.Entities;
-using Enrollee = AttendanceKeeper.Data.Enrollee;
+using ObjectManager;
+using Enrollee = ObjectManager.Enrollee;
 
 namespace AttendanceKeeper.Classes
 {

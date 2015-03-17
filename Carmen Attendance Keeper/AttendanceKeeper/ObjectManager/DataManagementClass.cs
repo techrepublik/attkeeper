@@ -7,7 +7,7 @@ using System.Windows.Forms;
 
 namespace ObjectManager
 {
-    class DataManagementClass
+    public class DataManagementClass
     {
         public static Dictionary<DateTime, string> LoadLeaveDictionary(int iEnrolleeId, int iMonth, int iYear)
         {

@@ -7,14 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using AttendanceKeeper.Classes;
-using AttendanceKeeper.Data;
 using Microsoft.ReportingServices.ReportRendering;
+using ObjectManager;
 
 namespace AttendanceKeeper.Management
 {
     public partial class EnrolleeImportForm : Form
     {
-        List<Enrollee> listEnrollees = new List<Enrollee>();
+        List<JBiometric.Entities.Enrollee> listEnrollees = new List<Enrollee>();
         public EnrolleeImportForm()
         {
             InitializeComponent();

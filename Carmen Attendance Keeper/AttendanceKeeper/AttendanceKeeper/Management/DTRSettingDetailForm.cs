@@ -6,8 +6,8 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-using AttendanceKeeper.Data;
 using AttendanceKeeper.Classes;
+using ObjectManager;
 
 namespace AttendanceKeeper.Management
 {

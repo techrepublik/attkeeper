@@ -390,7 +390,7 @@ namespace ObjectManager
 
                         if (setting.SettingId == 0)
                         {
-                            data.Settings.Add(s);
+                            data.Settings.AddObject(s);
                             data.SaveChanges();
                             iResult = s.SettingId;
                         }
@@ -420,7 +420,7 @@ namespace ObjectManager
                     Setting s = data.Settings.FirstOrDefault(se => se.SettingId == setting.SettingId);
                     if (s != null)
                     {
-                        data.Settings.Remove(setting);
+                        data.Settings.DeleteObject(setting);
                         data.SaveChanges();
                         bResult = true;
                     }
@@ -489,7 +489,7 @@ namespace ObjectManager
 
                         if (settingDetail.SettingDetailId == 0)
                         {
-                            data.SettingDetails.Add(settingDetail);
+                            data.SettingDetails.AddObject(settingDetail);
                             data.SaveChanges();
                             iResult = sd.SettingDetailId;
                         }
@@ -521,7 +521,7 @@ namespace ObjectManager
                         SettingDetail s = data.SettingDetails.FirstOrDefault(se => se.SettingDetailId == settingDetail.SettingDetailId);
                         if (s != null)
                         {
-                            data.SettingDetails.Remove(settingDetail);
+                            data.SettingDetails.DeleteObject(settingDetail);
                             data.SaveChanges();
                             bResult = true;
                         }
@@ -558,7 +558,7 @@ namespace ObjectManager
                     {
                         foreach (var q in lMachine)
                         {
-                            data.Machines.Add(q);
+                            data.Machines.AddObject(q);
                             data.SaveChanges();
                             iResult = 1;
                         }
@@ -603,7 +603,7 @@ namespace ObjectManager
 
                         if (machine.MachineId == 0)
                         {
-                            data.Machines.Add(machine);
+                            data.Machines.AddObject(machine);
                             data.SaveChanges();
                             iResult = m.MachineId;
                         }
@@ -636,7 +636,7 @@ namespace ObjectManager
 
                         if (m != null)
                         {
-                            data.Machines.Remove(machine);
+                            data.Machines.DeleteObject(machine);
                             data.SaveChanges();
                             bResult = true;
                         }
@@ -734,7 +734,7 @@ namespace ObjectManager
 
                         if (dtr.DTRId == 0)
                         {
-                            data.DTRs.Add(dtr);
+                            data.DTRs.AddObject(dtr);
                             data.SaveChanges();
                             iResult = d.DTRId;
                         }
@@ -765,7 +765,7 @@ namespace ObjectManager
                     {
                         foreach (var q in lDTRs)
                         {
-                            data.DTRs.Add(q);
+                            data.DTRs.AddObject(q);
                             data.SaveChanges();
                             iResult = 1;
                         }
@@ -791,7 +791,7 @@ namespace ObjectManager
                     DTR d = data.DTRs.FirstOrDefault(dt => dt.DTRId == dtr.DTRId);
                     if (d != null)
                     {
-                        data.DTRs.Remove(dtr);
+                        data.DTRs.DeleteObject(dtr);
                         data.SaveChanges();
                         bResult = true;
                     }
@@ -822,7 +822,7 @@ namespace ObjectManager
                     {
                         foreach (var a in lDTR)
                         {
-                            data.DTRs.Remove(a);
+                            data.DTRs.DeleteObject(a);
                             data.SaveChanges();
                             bResult = true;
                         }
@@ -888,7 +888,7 @@ namespace ObjectManager
 
                         if (misc.MiscId == 0)
                         {
-                            data.Miscellaneous.Add(m);
+                            data.Miscellaneous.AddObject(m);
                             data.SaveChanges();
                             iResult = m.MiscId;
                         }
@@ -920,7 +920,7 @@ namespace ObjectManager
                         Miscellaneou m = data.Miscellaneous.FirstOrDefault(mi => mi.MiscId == misc.MiscId);
                         if (m != null)
                         {
-                            data.Miscellaneous.Remove(misc);
+                            data.Miscellaneous.DeleteObject(misc);
                             data.SaveChanges();
                             bResult = true;
                         }
@@ -975,7 +975,7 @@ namespace ObjectManager
 
                         if (holiday.HolidayId == 0)
                         {
-                            data.Holidays.Add(holiday);
+                            data.Holidays.AddObject(holiday);
                             data.SaveChanges();
                             iResult = h.HolidayId;
                         }
@@ -1009,7 +1009,7 @@ namespace ObjectManager
 
                         if (h != null)
                         {
-                            data.Holidays.Remove(holiday);
+                            data.Holidays.DeleteObject(holiday);
                             data.SaveChanges();
                             bResult = true;
                         }
@@ -1078,7 +1078,7 @@ namespace ObjectManager
 
                         if (leave.LeaveId == 0)
                         {
-                            data.Leaves.Add(leave);
+                            data.Leaves.AddObject(leave);
                             data.SaveChanges();
                             iResult = l.LeaveId;
                         }
@@ -1110,7 +1110,7 @@ namespace ObjectManager
                         Leaf l = data.Leaves.FirstOrDefault(le => le.LeaveId == leave.LeaveId);
                         if (l != null)
                         {
-                            data.Leaves.Remove(leave);
+                            data.Leaves.DeleteObject(leave);
                             data.SaveChanges();
                             bResult = true;
                         }
@@ -1181,7 +1181,7 @@ namespace ObjectManager
 
                         if (user1.UserId == 0)
                         {
-                            data.Users.Add(user1);
+                            data.Users.AddObject(user1);
                             data.SaveChanges();
                             iResult = u.UserId;
                         }
@@ -1211,7 +1211,7 @@ namespace ObjectManager
                     User u = data.Users.FirstOrDefault(us => us.UserId == user.UserId);
                     if (u != null)
                     {
-                        data.Users.Remove(user);
+                        data.Users.DeleteObject(user);
                         data.SaveChanges();
                         bResult = true;
                     }
@@ -1261,7 +1261,7 @@ namespace ObjectManager
 
                         if (machineInstance.MachineInsId == 0)
                         {
-                            data.MachineInstances.Add(machineInstance);
+                            data.MachineInstances.AddObject(machineInstance);
                             data.SaveChanges();
                             iResult = m.MachineInsId;
                         }
@@ -1293,7 +1293,7 @@ namespace ObjectManager
 
                     if (m != null)
                     {
-                        data.MachineInstances.Remove(machineInstance);
+                        data.MachineInstances.DeleteObject(machineInstance);
                         data.SaveChanges();
                         bResult = true;
                     }
@@ -1349,7 +1349,7 @@ namespace ObjectManager
 
                         if (macDumpLog.MacDumpId > 0)
                         {
-                            data.MacDumpLogs.Add(macDumpLog);
+                            data.MacDumpLogs.AddObject(macDumpLog);
                             data.SaveChanges();
                             iResult = m.MacDumpId;
                         }
@@ -1380,7 +1380,7 @@ namespace ObjectManager
                     {
                         foreach (var q in lDumpLog)
                         {
-                            data.MacDumpLogs.Add(q);
+                            data.MacDumpLogs.AddObject(q);
                             data.SaveChanges();
                             iResult = 1;
                         }
@@ -1406,7 +1406,7 @@ namespace ObjectManager
                     MacDumpLog m = data.MacDumpLogs.FirstOrDefault(ma => ma.MacDumpId == macDumpLog.MacDumpId);
                     if (m != null)
                     {
-                        data.MacDumpLogs.Remove(macDumpLog);
+                        data.MacDumpLogs.DeleteObject(macDumpLog);
                         data.SaveChanges();
                         bResult = true;
                     }
@@ -1487,7 +1487,7 @@ namespace ObjectManager
 
                     if (company.CompanyId == 0)
                     {
-                        data.Companies.Add(company);
+                        data.Companies.AddObject(company);
                         data.SaveChanges();
                         iResult = c.CompanyId;
                     }
@@ -1511,7 +1511,7 @@ namespace ObjectManager
                     Company c = data.Companies.FirstOrDefault(co => co.CompanyId == company.CompanyId);
                     if (c != null)
                     {
-                        data.Companies.Remove(company);
+                        data.Companies.DeleteObject(company);
                         data.SaveChanges();
                         bResult = true;
                     }

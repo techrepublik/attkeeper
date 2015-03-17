@@ -1,10 +1,8 @@
 ﻿using System;
 using System.Threading;
 using System.Windows.Forms;
-using AttendanceKeeper.Data;
 using AttendanceKeeper.Classes;
 using ObjectManager;
-using Enrollee = AttendanceKeeper.Data.Enrollee;
 
 namespace AttendanceKeeper.Management
 {
@@ -40,10 +38,10 @@ namespace AttendanceKeeper.Management
                 if (leaveDataGridView.IsCurrentRowDirty)
                 {
                     this.Validate();
-                    ((Data.Leave) leaveBindingSource.Current).EditedBy = SUserName;
-                    ((Data.Leave) leaveBindingSource.Current).EditedOn = DateTime.Now;
+                    ((ObjectManager.Leaf) leaveBindingSource.Current).EditedBy = SUserName;
+                    ((Leaf) leaveBindingSource.Current).EditedOn = DateTime.Now;
                     leaveBindingSource.EndEdit();
-                    ((Leave) leaveBindingSource.Current).EnrolleeId = OEnrollee.EnrolleeId;
+                    ((Leaf) leaveBindingSource.Current).EnrolleeId = OEnrollee.EnrolleeId;
                     int iResult = ActionClass.SaveLeave((ObjectManager.Leaf) leaveBindingSource.Current);
                     if (iResult > 0)
                     {
@@ -65,7 +63,7 @@ namespace AttendanceKeeper.Management
                     DialogResult dResult = UtilityClass.GetDeleteDialog("Leave/O.B.");
                     if (dResult == DialogResult.Yes)
                     {
-                        if (ActionClass.DeleteLeave((Leave) leaveBindingSource.Current))
+                        if (ActionClass.DeleteLeave((Leaf) leaveBindingSource.Current))
                         {
                             MessageBox.Show("Record was successfully deleted.", "Delete", MessageBoxButtons.OK,
                                             MessageBoxIcon.Information);

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
 using System.Text;
+using JBiometric.Entities;
 
 namespace AttendanceKeeper.Classes
 {
@@ -63,7 +64,7 @@ namespace AttendanceKeeper.Classes
                 _isSorted = false;
             }
 
-            public JSortingListClass(IList<T> list)
+            public JSortingListClass(List<Enrollee> list)
                 : base(list)
             {
             }

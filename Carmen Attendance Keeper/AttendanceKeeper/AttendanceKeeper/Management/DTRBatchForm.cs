@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using AttendanceKeeper.Classes;
-using AttendanceKeeper.Data;
+using ObjectManager;
 
 namespace AttendanceKeeper.Management
 {
@@ -34,7 +34,7 @@ namespace AttendanceKeeper.Management
 
         private void LoadEnrollees(bool bDepartment)
         {
-            List<JEnrollee> listEnrollee = bDepartment ? DataManagementClass.LoadEnrollees(true, iDepartmentId) : DataManagementClass.LoadEnrollees();
+            List<ObjectManager.JEnrollee> listEnrollee = bDepartment ? DataManagementClass.LoadEnrollees(true, iDepartmentId) : DataManagementClass.LoadEnrollees();
             //checkedListBox1.Items.Clear();
             checkedListBox1.DataSource = listEnrollee;
             checkedListBox1.DisplayMember = "GetFullName";

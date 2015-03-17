@@ -85,6 +85,7 @@
     <Reference Include="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
+    <Reference Include="System.Data.Entity" />
     <Reference Include="System.Data.Linq">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
@@ -109,7 +110,6 @@
     <Compile Include="Classes\CalendarColumn.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="Classes\DataManagementClass.cs" />
     <Compile Include="Classes\DateTimeClass.cs" />
     <Compile Include="Classes\JDTR.cs" />
     <Compile Include="Classes\JDTRClass.cs" />
@@ -121,11 +121,6 @@
     <Compile Include="Classes\SettingClass.cs" />
     <Compile Include="Classes\UtilityClass.cs" />
     <Compile Include="Classes\XMLManipulatorClass.cs" />
-    <Compile Include="Data\DTRData.designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>DTRData.dbml</DependentUpon>
-    </Compile>
     <Compile Include="Management\AboutBoxA.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -308,9 +303,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <None Include="Data\DTRData.dbml.layout">
-      <DependentUpon>DTRData.dbml</DependentUpon>
-    </None>
     <EmbeddedResource Include="Management\AboutBoxA.resx">
       <DependentUpon>AboutBoxA.cs</DependentUpon>
     </EmbeddedResource>
@@ -417,11 +409,6 @@
       <DesignTime>True</DesignTime>
     </Compile>
     <None Include="app.config">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Data\DTRData.dbml">
-      <Generator>MSLinqToSQLGenerator</Generator>
-      <LastGenOutput>DTRData.designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
     <None Include="Properties\DataSources\AttendanceKeeper.Classes.JDTR.datasource" />

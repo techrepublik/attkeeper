@@ -9,7 +9,6 @@ using System.Threading;
 using System.Windows.Forms;
 using AttendanceKeeper.Classes;
 using ObjectManager;
-using User = AttendanceKeeper.Data.User;
 
 namespace AttendanceKeeper.Management
 {

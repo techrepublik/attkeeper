@@ -1,4 +1,6 @@
-﻿namespace AttendanceKeeper.Management
+﻿using ObjectManager;
+
+namespace AttendanceKeeper.Management
 {
     partial class ReportHolidayForm
     {
@@ -46,7 +48,7 @@
             // 
             // HolidayBindingSource
             // 
-            this.HolidayBindingSource.DataSource = typeof(AttendanceKeeper.Data.Holiday);
+            this.HolidayBindingSource.DataSource = typeof(Holiday);
             // 
             // panel1
             // 

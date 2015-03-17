@@ -18,3 +18,6 @@ E:\github\attkeeper\Carmen Attendance Keeper\AttendanceKeeper\ObjectManager\bin\
 E:\github\attkeeper\Carmen Attendance Keeper\AttendanceKeeper\ObjectManager\bin\Debug\EntityFramework.dll
 E:\github\attkeeper\Carmen Attendance Keeper\AttendanceKeeper\ObjectManager\bin\Debug\EntityFramework.xml
 E:\github\attkeeper\Carmen Attendance Keeper\AttendanceKeeper\ObjectManager\obj\Debug\ObjectManager.pdb
+E:\github\attkeeper\Carmen Attendance Keeper\AttendanceKeeper\ObjectManager\bin\Debug\JBiometric.dll
+E:\github\attkeeper\Carmen Attendance Keeper\AttendanceKeeper\ObjectManager\bin\Debug\Interop.zkemkeeper.dll
+E:\github\attkeeper\Carmen Attendance Keeper\AttendanceKeeper\ObjectManager\bin\Debug\JBiometric.pdb

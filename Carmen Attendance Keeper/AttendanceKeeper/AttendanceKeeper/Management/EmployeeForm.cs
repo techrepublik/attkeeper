@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
 using AttendanceKeeper.Classes;
-using AttendanceKeeper.Data;
 using System.Threading;
 using ObjectManager;
 

@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using AttendanceKeeper.Classes;
+using ObjectManager;
 
 namespace AttendanceKeeper.Management
 {

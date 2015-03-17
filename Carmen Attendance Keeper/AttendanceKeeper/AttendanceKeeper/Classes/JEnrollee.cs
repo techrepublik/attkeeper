@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using AttendanceKeeper.Data;
+using ObjectManager;
 
 namespace AttendanceKeeper.Classes
 {
