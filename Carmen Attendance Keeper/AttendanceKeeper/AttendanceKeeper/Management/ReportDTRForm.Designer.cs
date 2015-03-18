@@ -1,4 +1,6 @@
-﻿namespace AttendanceKeeper.Management
+﻿using ObjectManager;
+
+namespace AttendanceKeeper.Management
 {
     partial class ReportDTRForm
     {
@@ -41,7 +43,7 @@
             // 
             // DTRBindingSource
             // 
-            this.DTRBindingSource.DataSource = typeof(AttendanceKeeper.Data.DTR);
+            this.DTRBindingSource.DataSource = typeof(DTR);
             // 
             // panel1
             // 

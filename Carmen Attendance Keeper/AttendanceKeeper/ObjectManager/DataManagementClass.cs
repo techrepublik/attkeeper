@@ -9,6 +9,8 @@ namespace ObjectManager
 {
     public class DataManagementClass
     {
+        public DataManagementClass() { }
+
         public static Dictionary<DateTime, string> LoadLeaveDictionary(int iEnrolleeId, int iMonth, int iYear)
         {
             string tempLeave = string.Empty;

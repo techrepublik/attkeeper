@@ -9,6 +9,7 @@ using System.Windows.Forms;
 using AttendanceKeeper.Classes;
 using ObjectManager;
 using JDTR = AttendanceKeeper.Classes.JDTR;
+using JEnrollee = ObjectManager.JEnrollee;
 
 namespace AttendanceKeeper.Management
 {

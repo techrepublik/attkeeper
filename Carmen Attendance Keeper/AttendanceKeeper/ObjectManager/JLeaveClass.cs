@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ObjectManager
 {
-    class JLeaveClass : JEnrollee
+    public class JLeaveClass : JEnrollee
     {
         public int ILeaveId { get; set; }
         public string SLeaveNo { get; set; }

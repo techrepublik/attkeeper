@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using JBiometric.Entities;
+using Enrollee = ObjectManager.Enrollee;
 
 namespace AttendanceKeeper.Classes
 {
@@ -65,7 +66,7 @@ namespace AttendanceKeeper.Classes
             }
 
             public JSortingListClass(List<Enrollee> list)
-                : base(list)
+                : base((IList<T>) list)
             {
             }
     }

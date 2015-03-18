@@ -14,7 +14,7 @@ namespace AttendanceKeeper.Management
 {
     public partial class EnrolleeImportForm : Form
     {
-        List<JBiometric.Entities.Enrollee> listEnrollees = new List<Enrollee>();
+        List<Enrollee> listEnrollees = new List<Enrollee>();
         public EnrolleeImportForm()
         {
             InitializeComponent();
@@ -34,7 +34,7 @@ namespace AttendanceKeeper.Management
                 {
                     Cursor = Cursors.WaitCursor;
                     listEnrollees = UtilityClass.ImportEnrollees(openFileDialog.FileName);
-                    var jList = new JSortingListClass<Enrollee>(listEnrollees);
+                    var jList = new JSortingListClass<Enrollee>(listEnrollees);  //1
                     enrolleeBindingSource.DataSource = jList;
                     Cursor = Cursors.Default;
                 }

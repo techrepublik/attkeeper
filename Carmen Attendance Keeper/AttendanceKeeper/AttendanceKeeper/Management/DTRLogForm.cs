@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using AttendanceKeeper.Classes;
+using ObjectManager;
+using JDTRClass = AttendanceKeeper.Classes.JDTRClass;
 
 namespace AttendanceKeeper.Management
 {
@@ -52,7 +54,7 @@ namespace AttendanceKeeper.Management
             int iMonth = toolStripComboBoxMonth.SelectedIndex + 1;
             int iYear = int.Parse(toolStripComboBoxYear.Text);
             bool bSource = toolStripComboBox1.SelectedIndex == 0 ? false : true;
-            var listJDTR = new JSortingListClass<JDTRClass>(DataManagementClass.LoadDTRUpdated(iYear, iMonth, bSource)); 
+            var listJDTR = new JSortingListClass<JDTRClass>(DataManagementClass.LoadDTRUpdated(iYear, iMonth, bSource)); //1
             jDTRClassBindingSource.DataSource = listJDTR;
             Cursor = Cursors.Default;
         }
