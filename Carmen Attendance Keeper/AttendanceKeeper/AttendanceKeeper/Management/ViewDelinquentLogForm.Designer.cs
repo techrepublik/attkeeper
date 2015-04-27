@@ -1,4 +1,6 @@
-﻿namespace AttendanceKeeper.Management
+﻿using ObjectManager;
+
+namespace AttendanceKeeper.Management
 {
     partial class ViewDelinquentLogForm
     {
@@ -86,7 +88,7 @@
             // 
             // macDumpLogBindingSource
             // 
-            this.macDumpLogBindingSource.DataSource = typeof(AttendanceKeeper.Data.MacDumpLog);
+            this.macDumpLogBindingSource.DataSource = typeof(MacDumpLog);
             // 
             // macDumpLogDataGridView
             // 

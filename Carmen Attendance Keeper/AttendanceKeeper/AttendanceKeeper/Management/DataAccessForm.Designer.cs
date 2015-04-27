@@ -1,4 +1,6 @@
-﻿namespace AttendanceKeeper.Management
+﻿using ObjectManager;
+
+namespace AttendanceKeeper.Management
 {
     partial class DataAccessForm
     {
@@ -118,7 +120,7 @@
             // 
             // machineInstanceBindingSource
             // 
-            this.machineInstanceBindingSource.DataSource = typeof(AttendanceKeeper.Data.MachineInstance);
+            this.machineInstanceBindingSource.DataSource = typeof(MachineInstance);
             this.machineInstanceBindingSource.CurrentChanged += new System.EventHandler(this.machineInstanceBindingSource_CurrentChanged);
             // 
             // bindingNavigatorCountItem

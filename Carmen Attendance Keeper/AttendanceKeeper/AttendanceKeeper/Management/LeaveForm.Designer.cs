@@ -160,7 +160,7 @@
             // 
             // leaveBindingSource
             // 
-            this.leaveBindingSource.DataSource = typeof(AttendanceKeeper.Data.Leave);
+            this.leaveBindingSource.DataSource = typeof(ObjectManager.Leaf);
             // 
             // bindingNavigatorCountItem
             // 

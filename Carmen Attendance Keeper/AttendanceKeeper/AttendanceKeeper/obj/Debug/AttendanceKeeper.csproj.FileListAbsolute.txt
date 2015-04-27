@@ -501,3 +501,47 @@ E:\github\attkeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\o
 E:\github\attkeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.csproj.GenerateResource.Cache
 E:\github\attkeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\RdlCompile.cache
 E:\github\attkeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\RdlCompile.compiled
+C:\Users\josh lappi\Documents\GitHub\attkeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\bin\Debug\AttendanceKeeper.exe.config
+C:\Users\josh lappi\Documents\GitHub\attkeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.csprojResolveAssemblyReference.cache
+C:\Users\josh lappi\Documents\GitHub\attkeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.AboutBoxA.resources
+C:\Users\josh lappi\Documents\GitHub\attkeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.BackupRestoreDBForm.resources
+C:\Users\josh lappi\Documents\GitHub\attkeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.BackupRestoreFileForm.resources
+C:\Users\josh lappi\Documents\GitHub\attkeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRBatchForm.resources
+C:\Users\josh lappi\Documents\GitHub\attkeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRLogForm.resources
+C:\Users\josh lappi\Documents\GitHub\attkeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTROverUnderTimeForm.resources
+C:\Users\josh lappi\Documents\GitHub\attkeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRUpdateForm.resources
+C:\Users\josh lappi\Documents\GitHub\attkeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRWizardForm.resources
+C:\Users\josh lappi\Documents\GitHub\attkeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.EnrolleeImportForm.resources
+C:\Users\josh lappi\Documents\GitHub\attkeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.LeaveListForm.resources
+C:\Users\josh lappi\Documents\GitHub\attkeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.LoginForm.resources
+C:\Users\josh lappi\Documents\GitHub\attkeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.MianForm.resources
+C:\Users\josh lappi\Documents\GitHub\attkeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DataAccessForm.resources
+C:\Users\josh lappi\Documents\GitHub\attkeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DeviceSettingForm.resources
+C:\Users\josh lappi\Documents\GitHub\attkeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRForm.resources
+C:\Users\josh lappi\Documents\GitHub\attkeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRImportForm.resources
+C:\Users\josh lappi\Documents\GitHub\attkeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRSettingDetailForm.resources
+C:\Users\josh lappi\Documents\GitHub\attkeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.DTRSettingForm.resources
+C:\Users\josh lappi\Documents\GitHub\attkeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.EmployeeForm.resources
+C:\Users\josh lappi\Documents\GitHub\attkeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.LeaveForm.resources
+C:\Users\josh lappi\Documents\GitHub\attkeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.MachineInstanceForm.resources
+C:\Users\josh lappi\Documents\GitHub\attkeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.MachineLogForm.resources
+C:\Users\josh lappi\Documents\GitHub\attkeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.MachineSettingForm.resources
+C:\Users\josh lappi\Documents\GitHub\attkeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.PreferenceForm.resources
+C:\Users\josh lappi\Documents\GitHub\attkeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.ReportDTRForm.resources
+C:\Users\josh lappi\Documents\GitHub\attkeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.ReportEnrolleeForm.resources
+C:\Users\josh lappi\Documents\GitHub\attkeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.ReportHolidayForm.resources
+C:\Users\josh lappi\Documents\GitHub\attkeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.UserForm.resources
+C:\Users\josh lappi\Documents\GitHub\attkeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.ViewDelinquentLogForm.resources
+C:\Users\josh lappi\Documents\GitHub\attkeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Management.WizardRepportForm.resources
+C:\Users\josh lappi\Documents\GitHub\attkeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.Properties.Resources.resources
+C:\Users\josh lappi\Documents\GitHub\attkeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.csproj.GenerateResource.Cache
+C:\Users\josh lappi\Documents\GitHub\attkeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\RdlCompile.cache
+C:\Users\josh lappi\Documents\GitHub\attkeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\RdlCompile.compiled
+C:\Users\josh lappi\Documents\GitHub\attkeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\bin\Debug\AttendanceKeeper.exe
+C:\Users\josh lappi\Documents\GitHub\attkeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\bin\Debug\AttendanceKeeper.pdb
+C:\Users\josh lappi\Documents\GitHub\attkeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\bin\Debug\EntityFramework.dll
+C:\Users\josh lappi\Documents\GitHub\attkeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\bin\Debug\ObjectManager.dll
+C:\Users\josh lappi\Documents\GitHub\attkeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\bin\Debug\EntityFramework.xml
+C:\Users\josh lappi\Documents\GitHub\attkeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\bin\Debug\ObjectManager.pdb
+C:\Users\josh lappi\Documents\GitHub\attkeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.exe
+C:\Users\josh lappi\Documents\GitHub\attkeeper\Carmen Attendance Keeper\AttendanceKeeper\AttendanceKeeper\obj\Debug\AttendanceKeeper.pdb

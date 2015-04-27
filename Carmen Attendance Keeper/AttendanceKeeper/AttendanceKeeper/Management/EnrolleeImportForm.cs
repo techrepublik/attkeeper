@@ -30,19 +30,19 @@ namespace AttendanceKeeper.Management
                                      };
             if (openFileDialog.ShowDialog() == DialogResult.OK)
             {
-                try
-                {
-                    Cursor = Cursors.WaitCursor;
-                    listEnrollees = UtilityClass.ImportEnrollees(openFileDialog.FileName);
-                    var jList = new JSortingListClass<Enrollee>(listEnrollees);  //1
-                    enrolleeBindingSource.DataSource = jList;
-                    Cursor = Cursors.Default;
-                }
-                catch (Exception ex)
-                {
-                    Console.WriteLine(@"Error - " + ex.Message);
-                    //throw;
-                }
+                //try
+                //{
+                //    Cursor = Cursors.WaitCursor;
+                //    listEnrollees = UtilityClass.ImportEnrollees(openFileDialog.FileName);
+                //    var jList = new JSortingListClass<Enrollee>(listEnrollees);  //1
+                //    enrolleeBindingSource.DataSource = jList;
+                //    Cursor = Cursors.Default;
+                //}
+                //catch (Exception ex)
+                //{
+                //    Console.WriteLine(@"Error - " + ex.Message);
+                //    //throw;
+                //}
             }
             toolStripStatusLabel1.Text = String.Format("({0}) - records loaded.", enrolleeBindingSource.Count);
         }

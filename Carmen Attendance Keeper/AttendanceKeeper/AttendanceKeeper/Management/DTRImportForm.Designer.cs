@@ -133,7 +133,7 @@
             // 
             // dTRBindingSource
             // 
-            this.dTRBindingSource.DataSource = typeof(AttendanceKeeper.Data.DTR);
+            this.dTRBindingSource.DataSource = typeof(ObjectManager.DTR);
             // 
             // bindingNavigatorCountItem
             // 

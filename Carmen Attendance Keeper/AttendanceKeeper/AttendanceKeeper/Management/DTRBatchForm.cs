@@ -8,6 +8,7 @@ using System.Text;
 using System.Windows.Forms;
 using AttendanceKeeper.Classes;
 using ObjectManager;
+using JEnrollee = ObjectManager.JEnrollee;
 
 namespace AttendanceKeeper.Management
 {

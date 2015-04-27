@@ -41,3 +41,11 @@ E:\github\attkeeper\JBiometric\JBiometric\bin\Debug\JBiometric.dll
 E:\github\attkeeper\JBiometric\JBiometric\bin\Debug\JBiometric.pdb
 E:\github\attkeeper\JBiometric\JBiometric\bin\Debug\Interop.zkemkeeper.dll
 E:\github\attkeeper\JBiometric\JBiometric\obj\Debug\Interop.zkemkeeper.dll
+C:\Users\josh lappi\Documents\GitHub\attkeeper\JBiometric\JBiometric\bin\Debug\JBiometric.dll
+C:\Users\josh lappi\Documents\GitHub\attkeeper\JBiometric\JBiometric\bin\Debug\JBiometric.pdb
+C:\Users\josh lappi\Documents\GitHub\attkeeper\JBiometric\JBiometric\bin\Debug\Interop.zkemkeeper.dll
+C:\Users\josh lappi\Documents\GitHub\attkeeper\JBiometric\JBiometric\obj\Debug\JBiometric.csprojResolveAssemblyReference.cache
+C:\Users\josh lappi\Documents\GitHub\attkeeper\JBiometric\JBiometric\obj\Debug\Interop.zkemkeeper.dll
+C:\Users\josh lappi\Documents\GitHub\attkeeper\JBiometric\JBiometric\obj\Debug\JBiometric.csproj.ResolveComReference.cache
+C:\Users\josh lappi\Documents\GitHub\attkeeper\JBiometric\JBiometric\obj\Debug\JBiometric.dll
+C:\Users\josh lappi\Documents\GitHub\attkeeper\JBiometric\JBiometric\obj\Debug\JBiometric.pdb

@@ -340,7 +340,7 @@
             // 
             // departmentBindingSource
             // 
-            this.departmentBindingSource.DataSource = typeof(AttendanceKeeper.Data.Department);
+            this.departmentBindingSource.DataSource = typeof(ObjectManager.Department);
             // 
             // buttonClose
             // 

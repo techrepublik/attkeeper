@@ -6,6 +6,7 @@ using JBiometric.Entities;
 using JBiometric.Data;
 using AttendanceKeeper.Classes;
 using System.Threading;
+using ObjectManager;
 
 namespace AttendanceKeeper.Management
 {

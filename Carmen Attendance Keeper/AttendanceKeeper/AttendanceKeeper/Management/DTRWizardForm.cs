@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -177,7 +178,7 @@ namespace AttendanceKeeper.Management
 
         private void buttonFinish_Click(object sender, EventArgs e)
         {
-            Miscellaneous misc = ActionClass.FillMiscellaneous().FirstOrDefault(mi => mi.MiscActive == true);
+            Miscellaneou misc = ActionClass.FillMiscellaneous().FirstOrDefault(mi => mi.MiscActive == true);
             foreach (var item in listEnrollee)
             {
                 LoadDRTEnrollee(item, misc);
@@ -199,9 +200,9 @@ namespace AttendanceKeeper.Management
                 var eName = en.GetFullName;
                 Enrollee enrollee = ActionClass.GetEnrollee(en.EnrolleeId);
 
-                List<JDTR> lDTRSource01 = DataManagementClass.LoadDTRViaDTRBatch(enrollee, iMonth, iStartDay, iEndDay, iYear, ActionClass.FillDTRs(en.EnrolleeId), misc, eName, labelDuration.Text);
+                List<ObjectManager.JDTR> lDTRSource01 = DataManagementClass.LoadDTRViaDTRBatch(enrollee, iMonth, iStartDay, iEndDay, iYear, ActionClass.FillDTRs(en.EnrolleeId), misc, eName, labelDuration.Text);
 
-                lDTRSource.AddRange(lDTRSource01);
+                lDTRSource.AddRange(lDTRSource01 as IEnumerable<JDTR>);
             }
             Cursor = Cursors.Default;
         }

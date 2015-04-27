@@ -7,6 +7,7 @@ using Microsoft.Reporting.WinForms;
 using System.Threading;
 using System.Drawing;
 using ObjectManager;
+using JEnrollee = ObjectManager.JEnrollee;
 
 namespace AttendanceKeeper.Management
 {
@@ -98,7 +99,7 @@ namespace AttendanceKeeper.Management
 
                 textBoxDepartment.Text = GetEnrolleeDepartment();
                 textBoxPosition.Text = GetEnrolleePosition();
-                Miscellaneous misc = ActionClass.FillMiscellaneous().FirstOrDefault(mi => mi.MiscActive == true);
+                Miscellaneou misc = ActionClass.FillMiscellaneous().FirstOrDefault(mi => mi.MiscActive == true);
 
                 int iEnrolleeId = ((JEnrollee)listBoxEnrollees.SelectedItem).EnrolleeId;
                 Enrollee enrollee = ActionClass.GetEnrollee(iEnrolleeId);

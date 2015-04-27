@@ -123,7 +123,7 @@
             // 
             // DTRBindingSource
             // 
-            this.DTRBindingSource.DataSource = typeof(AttendanceKeeper.Data.DTR);
+            this.DTRBindingSource.DataSource = typeof(ObjectManager.DTR);
             // 
             // splitContainer1
             // 
@@ -471,7 +471,7 @@
             // 
             // dTRsBindingSource
             // 
-            this.dTRsBindingSource.DataSource = typeof(System.Data.Linq.EntitySet<AttendanceKeeper.Data.DTR>);
+            this.dTRsBindingSource.DataSource = typeof(System.Data.Linq.EntitySet<ObjectManager.DTR>);
             // 
             // tabPage2
             // 

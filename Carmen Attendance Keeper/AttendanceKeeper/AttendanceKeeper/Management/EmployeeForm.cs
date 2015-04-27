@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using System.Windows.Forms;
 using AttendanceKeeper.Classes;
 using System.Threading;
@@ -229,7 +230,7 @@ namespace AttendanceKeeper.Management
         private void toolStripButtonRefresh_Click(object sender, EventArgs e)
         {
             Cursor.Current = Cursors.WaitCursor;
-            var listEnrollees = new JSortingListClass<Enrollee>(ActionClass.FillEnrollees());
+            var listEnrollees = new ObjectManager.JSortingListClass<Enrollee>(ObjectManager.ActionClass.FillEnrollees());
             enrolleeBindingSource.DataSource = listEnrollees;
             Cursor.Current = Cursors.Default;
         }

@@ -65,7 +65,7 @@ namespace AttendanceKeeper.Classes
                 _isSorted = false;
             }
 
-            public JSortingListClass(List<Enrollee> list)
+            public JSortingListClass(List<JDTR> list)
                 : base((IList<T>) list)
             {
             }

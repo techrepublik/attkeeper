@@ -1,4 +1,6 @@
-﻿namespace AttendanceKeeper.Management
+﻿using ObjectManager;
+
+namespace AttendanceKeeper.Management
 {
     partial class DTRBatchForm
     {
@@ -112,7 +114,7 @@
             // 
             // departmentBindingSource
             // 
-            this.departmentBindingSource.DataSource = typeof(AttendanceKeeper.Data.Department);
+            this.departmentBindingSource.DataSource = typeof(Department);
             // 
             // checkBoxAll
             // 

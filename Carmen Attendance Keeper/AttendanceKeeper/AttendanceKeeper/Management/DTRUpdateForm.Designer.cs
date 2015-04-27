@@ -1,4 +1,6 @@
-﻿namespace AttendanceKeeper.Management
+﻿using ObjectManager;
+
+namespace AttendanceKeeper.Management
 {
     partial class DTRUpdateForm
     {
@@ -185,7 +187,7 @@
             // 
             // macDumpLogBindingSource
             // 
-            this.macDumpLogBindingSource.DataSource = typeof(AttendanceKeeper.Data.MacDumpLog);
+            this.macDumpLogBindingSource.DataSource = typeof(MacDumpLog);
             // 
             // buttonClose
             // 

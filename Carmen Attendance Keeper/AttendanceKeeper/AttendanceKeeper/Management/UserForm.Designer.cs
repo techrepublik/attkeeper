@@ -148,7 +148,7 @@
             // 
             // userBindingSource
             // 
-            this.userBindingSource.DataSource = typeof(AttendanceKeeper.Data.User);
+            this.userBindingSource.DataSource = typeof(ObjectManager.User);
             // 
             // userBindingNavigator
             // 

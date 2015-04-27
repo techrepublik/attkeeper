@@ -305,7 +305,7 @@
             // 
             // enrolleeBindingSource
             // 
-            this.enrolleeBindingSource.DataSource = typeof(AttendanceKeeper.Data.Enrollee);
+            this.enrolleeBindingSource.DataSource = typeof(ObjectManager.Enrollee);
             this.enrolleeBindingSource.CurrentChanged += new System.EventHandler(this.enrolleeBindingSource_CurrentChanged);
             // 
             // bindingNavigatorCountItem
@@ -668,7 +668,7 @@
             // 
             // departmentBindingSource
             // 
-            this.departmentBindingSource.DataSource = typeof(AttendanceKeeper.Data.Department);
+            this.departmentBindingSource.DataSource = typeof(ObjectManager.Department);
             // 
             // positionIdComboBox
             // 
@@ -705,7 +705,7 @@
             // 
             // settingBindingSource
             // 
-            this.settingBindingSource.DataSource = typeof(AttendanceKeeper.Data.Setting);
+            this.settingBindingSource.DataSource = typeof(ObjectManager.Setting);
             // 
             // linkLabelDepartment
             // 

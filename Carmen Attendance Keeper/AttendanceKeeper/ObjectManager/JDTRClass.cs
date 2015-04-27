@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ObjectManager
 {
-    public class JDTRClass:JEnrollee
+    public class JDTRClass:Enrollee
     {
         public double DTotalMin { get; set; }
         public double DTotalHr { get; set; }

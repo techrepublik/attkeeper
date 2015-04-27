@@ -119,7 +119,7 @@
             // 
             // settingBindingSource
             // 
-            this.settingBindingSource.DataSource = typeof(AttendanceKeeper.Data.Setting);
+            this.settingBindingSource.DataSource = typeof(ObjectManager.Setting);
             // 
             // bindingNavigatorCountItem
             // 

@@ -1,4 +1,6 @@
-﻿namespace AttendanceKeeper.Management
+﻿using System;
+
+namespace AttendanceKeeper.Management
 {
     partial class MachineLogForm
     {
@@ -287,7 +289,7 @@
             // 
             // machineBindingSource
             // 
-            this.machineBindingSource.DataSource = typeof(AttendanceKeeper.Data.Machine);
+            this.machineBindingSource.DataSource = typeof(ObjectManager.Machine);
             // 
             // dataGridViewTextBoxColumn1
             // 

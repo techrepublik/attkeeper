@@ -7,7 +7,7 @@ using System.ComponentModel;
 
 namespace ObjectManager
 {
-    class JSortingListClass<T> : BindingList<T>
+    public class JSortingListClass<T> : BindingList<T>
     {
         private bool _isSorted;
         private ListSortDirection _sortDirection;

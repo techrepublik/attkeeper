@@ -163,10 +163,10 @@ namespace AttendanceKeeper.Management
                     if (miscellaneousDataGridView.IsCurrentRowDirty == true)
                     {
                         this.Validate();
-                        ((Miscellaneous)miscellaneousBindingSource.Current).EditedBy = SUserName;
-                        ((Miscellaneous)miscellaneousBindingSource.Current).EditedOn = DateTime.Now;
+                        ((Miscellaneou)miscellaneousBindingSource.Current).EditedBy = SUserName;
+                        ((Miscellaneou)miscellaneousBindingSource.Current).EditedOn = DateTime.Now;
                         miscellaneousBindingSource.EndEdit();
-                        int iResult = ActionClass.SaveMiscellaneous((Miscellaneous)miscellaneousBindingSource.Current);
+                        int iResult = ActionClass.SaveMiscellaneous((Miscellaneou)miscellaneousBindingSource.Current);
                         if (iResult > 0)
                         {
                             Console.WriteLine(iResult.ToString());
@@ -255,7 +255,7 @@ namespace AttendanceKeeper.Management
                         dResult = UtilityClass.GetDeleteDialog("Miscellaneous");
                         if (dResult == DialogResult.Yes)
                         {
-                            if (ActionClass.DeleteMiscellaneous((Miscellaneous) miscellaneousBindingSource.Current))
+                            if (ActionClass.DeleteMiscellaneous((Miscellaneou) miscellaneousBindingSource.Current))
                             {
                                 if (miscellaneousDataGridView.CurrentRow != null)
                                     miscellaneousDataGridView.Rows.Remove(miscellaneousDataGridView.CurrentRow);

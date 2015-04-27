@@ -119,7 +119,7 @@
             // 
             // enrolleeBindingSource
             // 
-            this.enrolleeBindingSource.DataSource = typeof(AttendanceKeeper.Data.Enrollee);
+            this.enrolleeBindingSource.DataSource = typeof(ObjectManager.Enrollee);
             // 
             // enrolleeBindingNavigator
             // 

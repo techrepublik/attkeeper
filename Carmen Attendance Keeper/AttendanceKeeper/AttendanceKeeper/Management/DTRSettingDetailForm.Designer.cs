@@ -218,7 +218,7 @@
             // 
             // settingDetailsBindingSource
             // 
-            this.settingDetailsBindingSource.DataSource = typeof(System.Data.Linq.EntitySet<AttendanceKeeper.Data.SettingDetail>);
+            //this.settingDetailsBindingSource.DataSource = typeof(System.Data.Linq.EntitySet<AttendanceKeeper.Data.SettingDetail>);
             // 
             // settingDetailAMIn02DateTimePicker
             // 

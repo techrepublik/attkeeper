@@ -299,7 +299,7 @@
             // 
             // miscellaneousBindingSource
             // 
-            this.miscellaneousBindingSource.DataSource = typeof(AttendanceKeeper.Data.Miscellaneous);
+            this.miscellaneousBindingSource.DataSource = typeof(ObjectManager.Miscellaneou);
             // 
             // tabPage1
             // 
@@ -359,7 +359,7 @@
             // 
             // departmentBindingSource
             // 
-            this.departmentBindingSource.DataSource = typeof(AttendanceKeeper.Data.Department);
+            this.departmentBindingSource.DataSource = typeof(ObjectManager.Department);
             this.departmentBindingSource.CurrentChanged += new System.EventHandler(this.departmentBindingSource_CurrentChanged);
             // 
             // positionsDataGridView
@@ -472,7 +472,7 @@
             // 
             // holidayBindingSource
             // 
-            this.holidayBindingSource.DataSource = typeof(AttendanceKeeper.Data.Holiday);
+            this.holidayBindingSource.DataSource = typeof(ObjectManager.Holiday);
             // 
             // tabPage4
             // 
@@ -534,7 +534,7 @@
             // 
             // companyBindingSource
             // 
-            this.companyBindingSource.DataSource = typeof(AttendanceKeeper.Data.Company);
+            this.companyBindingSource.DataSource = typeof(ObjectManager.Company);
             // 
             // tabPage5
             // 
